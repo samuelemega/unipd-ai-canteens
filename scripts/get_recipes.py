@@ -5,17 +5,21 @@ def get_recipes(foods_df):
   return {
     "first-1": {  # Whole wheat pasta with lentils and vegetables
       "ingredients": {
-        "i-a": {
+        "cereals-and-derivatives": {
           "foods": foods_by_category(foods_df, "cereals-and-derivatives"),
-          "quantity": 0.6,
+          "quantity": 0.55,
         },
-        "i-b": {
+        "legumes": {
           "foods": foods_by_category(foods_df, "legumes"),
           "quantity": 0.25,
         },
-        "i-c": {
+        "vegetables-and-greens": {
           "foods": foods_by_category(foods_df, "vegetables-and-greens"),
           "quantity": 0.15,
+        },
+        "oils-and-fats": {
+          "foods": foods_by_category(foods_df, "oils-and-fats"),
+          "quantity": 0.05,
         },
       },
       "macros": {"c": 0.55, "p": 0.25, "f": 0.20}

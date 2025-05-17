@@ -2,15 +2,17 @@ import numpy as np
 import pandas as pd
 import math
 import random
+import matplotlib.pyplot as plt
 
 from get_foods import get_foods
 from get_recipes import get_recipes
 from get_warehouse import get_warehouse
 
+SD = 1
 MUTATION_RATE = .1
-TOURNAMENT_SIZE = 10
-CANDIDATES_COUNT = 50
-GENERATIONS_COUNT = 100
+TOURNAMENT_SIZE = 5
+CANDIDATES_COUNT = 20
+GENERATIONS_COUNT = 50
 
 CONSTRAINT_WEIGHT_MACROS = 1
 CONSTRAINT_WEIGHT_ECO = 1
@@ -38,7 +40,10 @@ def recipe_randomize(recipe_name):
   result = []
 
   for _, ingredient in recipes_repository[recipe_name]["ingredients"].items():
-    result.append(str(np.random.choice(ingredient["foods"])))
+    result.append((
+      str(np.random.choice(ingredient["foods"])),
+      (1 - SD / 2) + SD * np.random.rand(),
+    ))
 
   return result
 
@@ -61,11 +66,11 @@ def recipe_fitness(recipe_name, ingredients, weight):
   for index, key in enumerate(recipe["ingredients"].keys()):
 
     # details of the food chosen for the current ingredient
-    food_key = ingredients[index]
+    food_key, quantity_factor = ingredients[index]
     food = foods_repository[food_key]
 
     # food weight considering its edible part
-    food_weight_relative = recipe["ingredients"][key]["quantity"] / food["edible"]
+    food_weight_relative = quantity_factor * recipe["ingredients"][key]["quantity"] / food["edible"]
     food_weight_total = food_weight_relative * weight
 
     total_eco_score += food["eco-score"] * food_weight_relative
@@ -81,9 +86,9 @@ def recipe_fitness(recipe_name, ingredients, weight):
 
   macros_target = recipes_repository[recipe_name]["macros"]
   macros_var = (
-    (total_c / total_w - macros_target["c"]) ** 2 +
-    (total_p / total_w - macros_target["p"]) ** 2 +
-    (total_f / total_w - macros_target["f"]) ** 2
+    ((total_c / total_w - macros_target["c"]) / macros_target["c"]) ** 2 +
+    ((total_p / total_w - macros_target["p"]) / macros_target["p"]) ** 2 +
+    ((total_f / total_w - macros_target["f"]) / macros_target["f"]) ** 2
   )
 
   fitness -= CONSTRAINT_WEIGHT_MACROS * macros_var
@@ -111,10 +116,10 @@ def recipe_print(recipe_name, ingredients):
   ingredients_result = ""
 
   for index, key in enumerate(recipe["ingredients"].keys()):
-    food_key = ingredients[index]
+    food_key, quantity_factor = ingredients[index]
     food = foods_repository[food_key]
 
-    food_weight = recipe["ingredients"][key]["quantity"] / food["edible"] * 100
+    food_weight = quantity_factor * recipe["ingredients"][key]["quantity"] / food["edible"] * 100
 
     food_price = food_weight * food["price"] / 1000
 
@@ -166,9 +171,12 @@ def recipe_genetic_mutation(recipe_name, ingredients):
       recipes_repository[recipe_name]["ingredients"].keys()
     )[mutation_index]
 
-    mutated_ingredients[mutation_index] = str(np.random.choice(
-      recipes_repository[recipe_name]["ingredients"][ingredient_index]["foods"]
-    ))
+    mutated_ingredients[mutation_index] = (
+      str(np.random.choice(
+        recipes_repository[recipe_name]["ingredients"][ingredient_index]["foods"]
+      )),
+      (1 - SD / 2) + SD * np.random.rand(),
+    )
 
   return mutated_ingredients
 
@@ -188,7 +196,8 @@ def recipe_genetic_selection(recipe_name, ingredients_candidates, weight):
 
   ingredients_a, ingredients_b = sorted(
     selected,
-    key = lambda ingredients: recipe_fitness(recipe_name, ingredients, weight)
+    key=lambda ingredients: recipe_fitness(recipe_name, ingredients, weight),
+    reverse=True
   )[:2]
 
   ingredients_a = recipe_genetic_mutation(recipe_name, ingredients_a)
@@ -200,6 +209,8 @@ def recipe_genetic_selection(recipe_name, ingredients_candidates, weight):
 # recipe_genetic_solve
 #
 def recipe_genetic_solve(recipe_name, weight):
+  fitness_history = []
+
   generation = [
     recipe_randomize(recipe_name)
     for i in range(CANDIDATES_COUNT)
@@ -213,6 +224,26 @@ def recipe_genetic_solve(recipe_name, weight):
       generation_next.append(candidate)
 
     generation = generation_next
+
+    fitness_values = [recipe_fitness(recipe_name, candidate, weight) for candidate in generation]
+    fitness_history.append({
+      "generation": i,
+      "mean": np.mean(fitness_values),
+      "max": np.max(fitness_values),
+    })
+
+  generations = [entry["generation"] for entry in fitness_history]
+  fitness_mean = [entry["mean"] for entry in fitness_history]
+  fitness_max = [entry["max"] for entry in fitness_history]
+
+  plt.plot(generations, fitness_mean, label="Mean")
+  plt.plot(generations, fitness_max, label="Max")
+  plt.xlabel("Generation")
+  plt.ylabel("Fitness")
+  plt.title(f"Fitness for '{recipe_name}'")
+  plt.legend()
+  plt.grid(True)
+  plt.show()
 
   return max(
     generation,
