@@ -1,0 +1,900 @@
+﻿id;category;name;edible;proteins;fats;carbohydrates;eco-score;seasonality-score;price
+120010;fish-products;Anchovy, fresh, raw;0.75;0.168;0.026000000000000002;0.015;0.8;0.5;12.0
+120020;fish-products;Anchovy, in oil;1.0;0.259;0.113;0.002;0.8;0.5;15.6
+120030;fish-products;Anchovy, salted;0.5;0.25;0.031;0.023;0.8;0.5;15.6
+005000;vegetables-and-greens;Garlic, raw;0.75;0.084;0.008;0.01;0.8;0.5;2.5
+005004;vegetables-and-greens;White Piacentino garlic;0.94;0.07200000000000001;0.006;0.009000000000000001;0.8;0.5;2.5
+005001;vegetables-and-greens;Red Castelliri garlic;0.95;0.08900000000000001;0.005;0.0102;0.8;0.5;2.5
+005002;vegetables-and-greens;Red Procerno garlic;0.94;0.08900000000000001;0.009000000000000001;0.01;0.8;0.5;2.5
+005003;vegetables-and-greens;Red Sulmona garlic;0.96;0.087;0.013000000000000001;0.01;0.8;0.5;2.5
+104033;fresh-meat;Lamb, leg, lean only, baked in oven, no salt, no fat added;1.0;0.23;0.028999999999999998;0.0;0.8;0.7;15.6
+104030;fresh-meat;Lamb, leg, lean only, raw;1.0;0.2;0.025;0.0;0.8;0.7;12.0
+104043;fresh-meat;Lamb, cutlet, lean only, baked in oven, no salt, no fat added;1.0;0.22699999999999998;0.03;0.0;0.8;0.7;15.6
+104040;fresh-meat;Lamb, cutlet, lean only, raw;1.0;0.204;0.027000000000000003;0.0;0.8;0.7;12.0
+104029;fresh-meat;Lamb, lean only, cooked;1.0;0.25;0.11;0.0;0.8;0.7;15.6
+104020;fresh-meat;Lamb, lean only, raw;1.0;0.2;0.08800000000000001;0.0;0.8;0.7;12.0
+005025;vegetables-and-greens;Garden cress, boiled in distilled water, no salt, drained;1.0;0.021;0.002;0.026000000000000002;0.8;0.5;2.5
+005010;vegetables-and-greens;Garden cress, fresh, raw;0.97;0.018000000000000002;0.002;0.022000000000000002;0.8;0.5;2.5
+007010;fruit;Apricots, dehydrated;1.0;0.055999999999999994;0.01;0.8059999999999999;0.8;0.5;3.25
+007000;fruit;Apricots, fresh;0.94;0.004;0.001;0.098;0.8;0.5;2.5
+007020;fruit;Apricots, in syrup;1.0;0.004;0.001;0.161;0.8;0.5;2.5
+007030;fruit;Apricots, dried;1.0;0.05;0.005;0.665;0.8;0.5;3.25
+PC0029;italian-recipes;Anchovies baked;1.0;0.182;0.08;0.071;0.8;0.5;10.4
+PC0036;italian-recipes;Marinated anchovies;1.0;0.142;0.064;0.013999999999999999;0.8;0.5;10.4
+007700;fruit;Sour Cherry;0.85;0.008;0.0;0.102;0.8;0.5;2.5
+008610;nuts-and-oilseeds;Cashew Nuts;1.0;0.15;0.46;0.33;0.1;0.5;14.0
+007460;fruit;Pineapple, fresh;0.57;0.005;0.0;0.1;0.1;0.5;2.5
+007470;fruit;Pineapple in syrup;1.0;0.005;0.0;0.166;0.1;0.5;2.5
+106010;fresh-meat;Duck, domestic;0.8;0.214;0.08199999999999999;0.0;0.8;0.7;12.0
+120250;fish-products;Eel, fish breeding, fillets;1.0;0.162;0.18899999999999997;0.005;0.8;0.5;12.0
+120230;fish-products;River Eel, raw;0.71;0.11800000000000001;0.237;0.001;0.8;0.5;12.0
+120240;fish-products;Sea Eel, raw;0.7;0.146;0.196;0.006999999999999999;0.8;0.5;12.0
+120210;fish-products;Eel, smoked;1.0;0.175;0.17800000000000002;0.002;0.8;0.5;15.6
+120220;fish-products;Eel, pickled;0.88;0.14800000000000002;0.21899999999999997;0.006;0.8;0.5;12.0
+115010;offal;Sweetbreads - Thymus Bovine Organ;1.0;0.115;0.28600000000000003;0.001;0.8;0.5;5.0
+115019;offal;Sweetbreads - Thymus Bovine Organ, cooked;1.0;0.16399999999999998;0.409;0.002;0.8;0.5;6.5
+007480;fruit;Custard apple, fresh;0.72;0.018000000000000002;0.002;0.158;0.1;0.5;2.5
+008500;nuts-and-oilseeds;Peanuts, toasted;0.65;0.29;0.5;0.085;0.8;0.5;14.0
+128050;fish-products;Lobster, raw;0.29;0.16;0.019;0.01;0.8;0.5;12.0
+128055;fish-products;Lobster, boiled;0.29;0.162;0.019;0.01;0.8;0.5;12.0
+008011;fruit;Oranges blondes Juice, fresh;1.0;0.005;0.0;0.096;0.8;0.5;2.5
+008001;fruit;Oranges blondes, fresh;0.68;0.006999999999999999;0.002;0.099;0.8;0.5;2.5
+008005;fruit;Oranges Moro, fresh;0.59;0.006999999999999999;0.002;0.09;0.8;0.5;2.5
+008012;fruit;Oranges red Juice, fresh;1.0;0.005;0.0;0.098;0.8;0.5;2.5
+008004;fruit;Oranges red, fresh;0.64;0.006999999999999999;0.002;0.099;0.8;0.5;2.5
+008006;fruit;Oranges Sanguinello, fresh;0.65;0.006999999999999999;0.001;0.106;0.8;0.5;2.5
+008010;fruit;Orange Juice, fresh;1.0;0.005;0.0;0.08199999999999999;0.8;0.5;2.5
+008007;fruit;Oranges Tarocco, fresh;0.57;0.006999999999999999;0.002;0.1;0.8;0.5;2.5
+008002;fruit;Oranges Valencia, fresh;0.69;0.006999999999999999;0.003;0.08;0.8;0.5;2.5
+008003;fruit;Oranges Washington, fresh;0.62;0.01;0.002;0.094;0.8;0.5;2.5
+008000;fruit;Oranges, fresh;0.8;0.006999999999999999;0.002;0.078;0.8;0.5;2.5
+401010;various-products;Soft drink, orange;1.0;0.001;0.0;0.1;0.8;0.5;4.0
+120300;fish-products;Herring, raw;0.7;0.165;0.16699999999999998;0.0;0.8;0.5;12.0
+120310;fish-products;Herring, smoked;0.7;0.19899999999999998;0.127;0.0;0.8;0.5;15.6
+120320;fish-products;Herring, pickled;0.95;0.183;0.14;0.0;0.8;0.5;12.0
+120330;fish-products;Herring, salted;0.73;0.198;0.154;0.0;0.8;0.5;15.6
+005030;vegetables-and-greens;Asparagus, wild, raw;0.57;0.046;0.002;0.04;0.8;1.0;2.5
+005045;vegetables-and-greens;Asparagus, coltivated, boiled in distilled water, no salt, drained;0.85;0.038;0.002;0.034;0.8;1.0;2.5
+005040;vegetables-and-greens;Asparagus, coltivated, raw;0.87;0.036000000000000004;0.002;0.033;0.8;1.0;2.5
+005050;vegetables-and-greens;Asparagus, greenhouse, raw;0.52;0.03;0.001;0.03;0.8;0.2;2.5
+007490;fruit;Avocado, fresh;0.76;0.044000000000000004;0.23;0.018000000000000002;0.1;0.5;2.5
+207010;sweets;Baba' with Rhum;1.0;0.059000000000000004;0.057;0.41200000000000003;0.8;0.5;6.0
+007500;fruit;Babaco, fresh;0.89;0.006999999999999999;0.002;0.045;0.1;0.5;2.5
+PC0004;italian-recipes;Vicentina Cod;1.0;0.215;0.479;0.003;0.8;0.5;8.0
+007510;fruit;Bananas, fresh;0.65;0.012;0.003;0.174;0.1;0.5;2.5
+005065;vegetables-and-greens;Red Beet, boiled in distilled water, no salt, drained;1.0;0.021;0.0;0.078;0.8;0.5;2.5
+005060;vegetables-and-greens;Red Beet, raw;0.82;0.011000000000000001;0.0;0.04;0.8;0.5;2.5
+214000;sweets;Coconut snack, covered by chocolate, packed;1.0;0.048;0.261;0.5820000000000001;0.1;0.5;7.8
+006800;vegetables-and-greens;Basil, fresh;1.0;0.031;0.008;0.052000000000000005;0.8;0.5;2.5
+003000;cereals-and-derivatives;Bran wheat, small sticks;1.0;0.14;0.032;0.384;0.8;0.5;2.0
+PC0044;italian-recipes;Béchamel;1.0;0.039;0.095;0.095;0.8;0.5;8.0
+403010;alcoholic-beverages;Aperitifs, wine based;1.0;0.0;0.0;0.17;0.8;0.5;7.0
+404010;alcoholic-beverages;Beer, light colour;1.0;0.002;0.0;0.035;0.8;0.5;7.0
+408010;alcoholic-beverages;Brandy;1.0;0.0;0.0;0.0;0.8;0.5;7.0
+408100;alcoholic-beverages;Grappa, spirit;1.0;0.0;0.0;0.0;0.8;0.5;7.0
+407010;alcoholic-beverages;Liquor, dessert;1.0;0.0;0.0;0.311;0.8;0.5;7.0
+407510;alcoholic-beverages;Marsala, italian cured wine with egg;1.0;0.0;0.0;0.124;0.8;0.5;9.1
+406010;alcoholic-beverages;Marsala, italian cured wine;1.0;0.0;0.0;0.28;0.8;0.5;9.1
+409000;alcoholic-beverages;Sparkling Wine;1.0;0.0;0.0;0.006;0.8;0.5;7.0
+406500;alcoholic-beverages;Vermouth, sweet;1.0;0.0;0.0;0.139;0.8;0.5;7.0
+406510;alcoholic-beverages;Vermouth, dry;1.0;0.0;0.0;0.04;0.8;0.5;7.0
+405010;alcoholic-beverages;White Wine;1.0;0.0;0.0;0.0;0.8;0.5;7.0
+405020;alcoholic-beverages;Red Wine;1.0;0.0;0.0;0.0;0.8;0.5;7.0
+408900;alcoholic-beverages;Whisky, spirit;1.0;0.0;0.0;0.0;0.8;0.5;7.0
+401100;various-products;Soft drink, coke;1.0;0.0;0.0;0.105;0.8;0.5;4.0
+005084;vegetables-and-greens;Beet, cooked by microwave;1.0;0.013000000000000001;0.001;0.018000000000000002;0.8;0.5;3.25
+005085;vegetables-and-greens;Beet, boiled in distilled water, no salt, drained;1.0;0.015;0.001;0.021;0.8;0.5;2.5
+005080;vegetables-and-greens;Beet, raw;0.82;0.013000000000000001;0.001;0.018000000000000002;0.8;0.5;2.5
+000960;cereals-and-derivatives;Biscuits with soybean;1.0;0.115;0.061;0.708;0.8;0.5;2.0
+000900;cereals-and-derivatives;"Biscuits ""Frollini"", shortbread";1.0;0.07200000000000001;0.138;0.7170000000000001;0.8;0.5;2.0
+000910;cereals-and-derivatives;Biscuits, wholemeal;1.0;0.078;0.12300000000000001;0.708;0.8;0.5;2.0
+000970;cereals-and-derivatives;Biscuits with soybean, wholemeal;1.0;0.115;0.204;0.604;0.8;0.5;2.0
+000950;cereals-and-derivatives;Biscuits, dried;1.0;0.066;0.079;0.804;0.8;0.5;2.0
+000990;cereals-and-derivatives;Biscuits, wafer;1.0;0.071;0.15;0.762;0.8;0.5;2.0
+120400;fish-products;Bogue, raw;1.0;0.183;0.012;0.008;0.8;0.5;12.0
+120590;fish-products;Flathead Mullet, eggs (bottarga);1.0;0.435;0.257;0.0;0.8;0.5;15.6
+101230;fresh-meat;Beef, shoulder clod, middle rib and chuck, lean only;1.0;0.203;0.057;0.0;0.8;0.5;12.0
+101150;fresh-meat;Beef, rib, lean only;1.0;0.213;0.061;0.0;0.8;0.5;12.0
+101160;fresh-meat;Beef, top side (shank), lean only;1.0;0.218;0.018000000000000002;0.0;0.8;0.5;12.0
+101170;fresh-meat;Beef, tenderloin (fillet), lean only;1.0;0.205;0.05;0.0;0.8;0.5;12.0
+101240;fresh-meat;Beef, fore shank and hind shank, lean only;1.0;0.209;0.032;0.0;0.8;0.5;12.0
+101180;fresh-meat;Beef, eye-round, lean only;1.0;0.213;0.027999999999999997;0.0;0.8;0.5;12.0
+101190;fresh-meat;Beef, sirloin-steak, lean only;1.0;0.218;0.052000000000000005;0.0;0.8;0.5;12.0
+101200;fresh-meat;Beef, knuckle (thick flank), lean only;1.0;0.213;0.023;0.0;0.8;0.5;12.0
+101250;fresh-meat;Beef, flank steak and brisket, lean only;1.0;0.19699999999999998;0.102;0.0;0.8;0.5;12.0
+101210;fresh-meat;Beef, rump, lean only;1.0;0.214;0.037000000000000005;0.0;0.8;0.5;12.0
+101220;fresh-meat;Beef, under top side, lean only;1.0;0.22;0.026000000000000002;0.0;0.8;0.5;12.0
+101260;fresh-meat;Beef, shoulder clod and blade fillet, lean only;1.0;0.215;0.024;0.0;0.8;0.5;12.0
+101120;fresh-meat;Beef, front part cuts;1.0;0.205;0.07;0.0;0.8;0.5;12.0
+101130;fresh-meat;Beef, hind part cuts;1.0;0.215;0.034;0.0;0.8;0.5;12.0
+PC0003;italian-recipes;Braised Beef with Barolo;1.0;0.138;0.055999999999999994;0.003;0.8;0.5;10.4
+110020;processed-and-preserved-meat;Bresaola, cured meat;1.0;0.331;0.02;0.004;0.6;0.5;23.4
+160410;cheese-and-dairy;Cheese, brie;1.0;0.193;0.26899999999999996;0.002;0.8;0.5;14.0
+005095;vegetables-and-greens;Turnip-Tops, boiled in distilled water, no salt, drained;1.0;0.031;0.003;0.021;0.9;0.85;2.5
+005090;vegetables-and-greens;Turnip-Tops, raw;0.6;0.028999999999999998;0.003;0.02;0.85;0.8;2.5
+005105;vegetables-and-greens;Broccoli, head, boiled in distilled water, no salt, drained;1.0;0.031;0.004;0.032;0.92;0.75;2.5
+005110;vegetables-and-greens;Broccoli, head, fresh, raw;0.51;0.03;0.004;0.031;0.88;0.7;2.5
+102000;fresh-meat;Buffalo, lean only;1.0;0.22;0.011000000000000001;0.0;0.7;0.6;12.0
+160420;cheese-and-dairy;Cheese, semisoft, burrino;1.0;0.221;0.47;0.040999999999999995;0.65;0.5;14.0
+190010;oils-and-fats;Butter;1.0;0.008;0.8340000000000001;0.011000000000000001;0.4;0.5;6.0
+009010;oils-and-fats;Peanut Butter;1.0;0.249;0.537;0.08;0.55;0.5;6.0
+160430;cheese-and-dairy;"Cheese, semisoft, ""butirro calabro""";1.0;0.247;0.38799999999999996;0.003;0.75;0.5;14.0
+508010;various-products;Cocoa, bitter, powder;1.0;0.204;0.256;0.115;0.3;0.5;4.0
+160800;cheese-and-dairy;Cheese, semisoft, caciocavallo;1.0;0.35700000000000004;0.311;0.023;0.8;0.5;14.0
+160810;cheese-and-dairy;Cheese, semisoft, goat's cacioricotta;1.0;0.11900000000000001;0.14300000000000002;0.015;0.85;0.5;14.0
+160820;cheese-and-dairy;Cheese, semisoft, mixed caciotta;1.0;0.245;0.31;0.018000000000000002;0.8;0.5;14.0
+160830;cheese-and-dairy;Cheese, semisoft, sheep's caciotta romana;1.0;0.27699999999999997;0.273;0.021;0.82;0.5;14.0
+160840;cheese-and-dairy;Cheese, semisoft, tuscan caciotta;1.0;0.24600000000000002;0.29600000000000004;0.008;0.78;0.5;14.0
+160860;cheese-and-dairy;Cheese, semisoft, raw caciottina;1.0;0.17300000000000001;0.213;0.005;0.75;0.5;14.0
+166010;cheese-and-dairy;Cheese, semisoft cheese, mixed caciottina;1.0;0.26899999999999996;0.285;0.015;0.8;0.5;14.0
+160850;cheese-and-dairy;Cheese, semisoft, cow milk, caciottina;1.0;0.21100000000000002;0.254;0.03;0.78;0.5;14.0
+508200;various-products;Coffee, toasted, powder;1.0;0.10400000000000001;0.154;0.285;0.35;0.5;4.0
+127100;fish-products;Squid, raw;0.65;0.126;0.017;0.006;0.6;0.5;12.0
+127110;fish-products;Squid, deep-freezed;0.59;0.131;0.015;0.006;0.55;0.5;12.0
+160870;cheese-and-dairy;Cheese, semisoft, camembert;1.0;0.209;0.247;0.002;0.75;0.5;14.0
+204010;sweets;Sweet, candied fruits;1.0;0.005;0.0;0.75;0.4;0.5;6.0
+207020;sweets;Pastry, horns filled with custard, packed;1.0;0.062;0.207;0.419;0.5;0.5;6.0
+PC0002;italian-recipes;Ricotta Stuffed Roll;1.0;0.07200000000000001;0.146;0.42700000000000005;0.75;0.5;10.4
+120290;fish-products;Freshwater Large Female Eel, raw;0.65;0.13;0.215;0.005;0.45;0.3;12.0
+110100;processed-and-preserved-meat;Capocollo, cured meat;1.0;0.20800000000000002;0.402;0.013999999999999999;0.6;0.5;23.4
+110110;processed-and-preserved-meat;Capocollo, Calabria, cured meat;1.0;0.29100000000000004;0.249;0.009000000000000001;0.62;0.5;23.4
+104250;fresh-meat;Goat, lean only;1.0;0.212;0.023;0.0;0.7;0.6;12.0
+104300;fresh-meat;Kid, lean only;0.75;0.192;0.04;0.0;0.65;0.55;12.0
+202010;sweets;Hard Candies;1.0;0.0;0.0;0.9159999999999999;0.6;0.5;6.0
+202020;sweets;Toffee;1.0;0.021;0.172;0.711;0.6;0.5;6.0
+PC0040;italian-recipes;Roman artichokes;1.0;0.022000000000000002;0.059000000000000004;0.018000000000000002;0.9;0.9;8.0
+005124;vegetables-and-greens;Artichokes, cooked by microwave;1.0;0.027999999999999997;0.002;0.025;0.9;0.9;2.5
+005125;vegetables-and-greens;Artichokes, boiled in distilled water, no salt, drained;1.0;0.036000000000000004;0.003;0.033;0.9;0.9;2.5
+005120;vegetables-and-greens;Artichokes, raw;0.34;0.027000000000000003;0.002;0.025;0.9;0.9;2.5
+005130;vegetables-and-greens;Artichokes, frozen, raw;1.0;0.027000000000000003;0.002;0.025;0.8;0.5;2.5
+005131;vegetables-and-greens;Artichokes Roman IGP;0.37;0.03;0.002;0.061;0.9;0.9;3.25
+005136;vegetables-and-greens;Artichokes, Sardinian spiny;0.37;0.019;0.002;0.08900000000000001;0.8;0.5;3.25
+005132;vegetables-and-greens;Artichokes, green, premature;0.34;0.028999999999999998;0.002;0.054000000000000006;0.75;0.5;2.5
+005134;vegetables-and-greens;Artichokes, violet, premature;0.36;0.027999999999999997;0.002;0.052000000000000005;0.75;0.5;2.5
+005195;vegetables-and-greens;Cardoon, boiled in distilled water, no salt, drained;1.0;0.01;0.002;0.028999999999999998;0.8;0.7;2.5
+005140;vegetables-and-greens;Cardoon, raw;0.7;0.006;0.001;0.017;0.8;0.7;2.5
+113010;processed-and-preserved-meat;Beef, in jelly, canned;1.0;0.126;0.018000000000000002;0.0;0.6;0.5;23.4
+113020;processed-and-preserved-meat;Beef, pressed, canned;1.0;0.165;0.083;0.0;0.6;0.5;23.4
+005154;vegetables-and-greens;Carrots, cooked by microwave;1.0;0.011000000000000001;0.002;0.077;0.9;0.9;2.5
+005155;vegetables-and-greens;Carrots, boiled in distilled water, no salt, drained;1.0;0.013000000000000001;0.002;0.087;0.9;0.9;2.5
+005150;vegetables-and-greens;Carrots, fresh, raw;0.95;0.011000000000000001;0.002;0.076;0.9;0.9;2.5
+120500;fish-products;Carp, raw;0.5;0.18899999999999997;0.071;0.0;0.55;0.5;12.0
+008510;nuts-and-oilseeds;Carobs;1.0;0.033;0.006999999999999999;0.499;0.8;0.6;14.0
+PC0005;italian-recipes;Tuscan Castagnaccio;1.0;0.034;0.068;0.39299999999999996;0.8;0.6;10.4
+008520;nuts-and-oilseeds;Chestnuts;0.85;0.028999999999999998;0.017;0.36700000000000005;0.8;0.5;14.0
+008521;nuts-and-oilseeds;Chestnuts, roasted;0.82;0.037000000000000005;0.024;0.418;0.8;0.5;14.0
+008525;nuts-and-oilseeds;Chestnuts, boiled without salt, drained;0.88;0.025;0.013000000000000001;0.261;0.8;0.5;14.0
+008530;nuts-and-oilseeds;Chestnuts, dried;1.0;0.06;0.034;0.62;0.8;0.5;14.0
+103020;fresh-meat;Horse, lean only;1.0;0.235;0.01;0.006999999999999999;0.65;0.6;12.0
+103010;fresh-meat;Horse, raw;1.0;0.198;0.068;0.006;0.65;0.6;12.0
+123390;fish-products;Sturgeon'S Eggs (Caviar);1.0;0.26899999999999996;0.15;0.033;0.4;0.4;15.6
+005164;vegetables-and-greens;Cauliflower, cooked by microwave;1.0;0.032;0.002;0.027999999999999997;0.9;0.9;2.5
+005165;vegetables-and-greens;Cauliflower, boiled in distilled water, no salt, drained;1.0;0.034;0.002;0.028999999999999998;0.9;0.9;2.5
+005160;vegetables-and-greens;Cauliflower, raw;0.66;0.032;0.002;0.027000000000000003;0.9;0.9;2.5
+005175;vegetables-and-greens;Brussels Sprouts, boiled in distilled water, no salt, drained;1.0;0.047;0.006;0.046;0.9;0.9;2.5
+005170;vegetables-and-greens;Brussels Sprouts, raw;0.76;0.042;0.005;0.042;0.9;0.9;2.5
+005185;vegetables-and-greens;Broccoli, verde ramoso, boiled in distilled water, no salt, drained;1.0;0.06;0.005;0.035;0.9;0.9;2.5
+005180;vegetables-and-greens;Broccoli, verde ramoso, raw;0.72;0.034;0.003;0.02;0.9;0.9;2.5
+005190;vegetables-and-greens;Cabbage, red;0.94;0.019;0.002;0.027000000000000003;0.8;0.8;2.5
+005205;vegetables-and-greens;Cabbage, green, boiled in distilled water, no salt, drained;1.0;0.021;0.001;0.025;0.8;0.8;2.5
+005200;vegetables-and-greens;Cabbage, green, raw;0.93;0.021;0.001;0.025;0.8;0.8;2.5
+005215;vegetables-and-greens;Cabbage, savoy, boiled in distilled water, no salt, drained;1.0;0.02;0.001;0.038;0.8;0.8;2.5
+005210;vegetables-and-greens;Cabbage, savoy, raw;0.92;0.02;0.001;0.038;0.8;0.8;2.5
+004010;legumes;Chickpeas, canned, drained, raw;1.0;0.067;0.023;0.139;0.8;0.8;3.0
+004000;legumes;Chickpeas, dried, raw;1.0;0.209;0.063;0.469;0.8;0.8;3.0
+004005;legumes;Chickpeas, dried, boiled without salt, drained;1.0;0.07;0.024;0.18899999999999997;0.8;0.8;3.0
+120510;fish-products;Flathead Mullet, raw;0.55;0.158;0.068;0.006999999999999999;0.6;0.5;12.0
+120610;fish-products;Groper, deep frozen;0.68;0.17;0.02;0.005;0.5;0.4;12.0
+115110;offal;Brain, bovine;1.0;0.1;0.127;0.008;0.6;0.5;5.0
+108010;fresh-meat;Deer, lean only, raw;1.0;0.21;0.008;0.0;0.65;0.6;12.0
+005220;vegetables-and-greens;Cucumbers, fresh;0.77;0.006999999999999999;0.005;0.018000000000000002;0.85;0.9;2.5
+160880;cheese-and-dairy;Cheese, cheddar;1.0;0.267;0.31;0.005;0.6;0.5;14.0
+119020;meat-based-fast-food;Cheese Burger, fast food preparation;1.0;0.163;0.131;0.302;0.5;0.4;10.4
+119040;meat-based-fast-food;Chicken Nuggets, fast food;1.0;0.177;0.124;0.154;0.5;0.4;10.4
+110130;processed-and-preserved-meat;Ciccioli, scraps of swine fat;1.0;0.452;0.506;0.0;0.5;0.4;23.4
+005230;vegetables-and-greens;Chicory, greens, cultivated, raw;0.89;0.012;0.001;0.017;0.9;0.9;2.5
+005245;vegetables-and-greens;Chicory, greens, wild, boiled in distilled water, no salt, drained;1.0;0.013999999999999999;0.002;0.006999999999999999;0.9;0.9;2.5
+005240;vegetables-and-greens;Chicory, greens, wild, raw;0.8;0.013999999999999999;0.002;0.006999999999999999;0.9;0.9;2.5
+005250;vegetables-and-greens;Chicory, witloof, raw;1.0;0.006999999999999999;0.003;0.032;0.8;0.7;2.5
+007720;fruit;Cherry, candied;1.0;0.004;0.0;0.664;0.6;0.5;2.5
+007710;fruit;Cherry, fresh;0.86;0.008;0.001;0.11;0.95;0.95;2.5
+203010;sweets;Chocolate, milk;1.0;0.073;0.363;0.505;0.5;0.4;6.0
+203030;sweets;Chocolate, milk with hazelnut;1.0;0.07200000000000001;0.369;0.486;0.5;0.4;6.0
+203020;sweets;Chocolate, dark;1.0;0.066;0.336;0.49700000000000005;0.5;0.4;6.0
+005305;vegetables-and-greens;Onions, boiled in distilled water, no salt, drained;1.0;0.013999999999999999;0.001;0.078;0.8;0.8;2.5
+005300;vegetables-and-greens;Onions, raw;0.83;0.01;0.001;0.057;0.8;0.8;2.5
+005315;vegetables-and-greens;Small Onions, boiled in distilled water, no salt, drained;1.0;0.017;0.001;0.109;0.8;0.8;2.5
+005310;vegetables-and-greens;Small Onions, raw;0.93;0.013000000000000001;0.001;0.085;0.8;0.8;2.5
+008020;fruit;Clementines;0.75;0.009000000000000001;0.001;0.087;0.7;0.5;2.5
+007530;nuts-and-oilseeds;Coconut, dried;1.0;0.055999999999999994;0.62;0.16399999999999998;0.4;0.4;14.0
+007520;nuts-and-oilseeds;Coconut, fresh;0.52;0.035;0.35;0.044000000000000004;0.4;0.4;14.0
+008940;fruit;Fruit In Syrup, mix;1.0;0.004;0.0;0.14800000000000002;0.6;0.4;2.5
+007040;fruit;Watermelon;0.52;0.004;0.0;0.037000000000000005;0.7;0.6;2.5
+107010;fresh-meat;Rabbit, whole, raw;0.71;0.19899999999999998;0.043;0.0;0.7;0.6;12.0
+107030;fresh-meat;Rabbit, thigh, raw;0.83;0.21;0.059000000000000004;0.0;0.7;0.6;12.0
+107020;fresh-meat;Rabbit, whole, deep-frozen, raw;0.69;0.203;0.039;0.0;0.7;0.6;12.0
+107019;fresh-meat;Rabbit, whole, cooked;0.71;0.27899999999999997;0.06;0.0;0.7;0.6;15.6
+110150;processed-and-preserved-meat;Coppa, cured meat;1.0;0.289;0.316;0.0;0.6;0.5;23.4
+115120;offal;Giblets, lamb;1.0;0.157;0.047;0.01;0.6;0.5;5.0
+115130;offal;Giblets, calf;1.0;0.171;0.032;0.008;0.6;0.5;5.0
+120710;fish-products;Lake Whitefish, coregone, raw;0.69;0.19;0.065;0.001;0.6;0.5;12.0
+003020;cereals-and-derivatives;Corn flakes;1.0;0.066;0.008;0.8740000000000001;0.8;0.6;2.0
+002500;cereals-and-derivatives;Brioches;1.0;0.07200000000000001;0.183;0.547;0.6;0.5;2.0
+120810;fish-products;Corb, brown meagre, raw;0.65;0.2;0.008;0.002;0.6;0.5;12.0
+110195;processed-and-preserved-meat;Cotechino, Modena PGI, cooked;1.0;0.23600000000000002;0.163;0.032;0.6;0.5;23.4
+000046;cereals-and-derivatives;Couscous, cooked;1.0;0.036000000000000004;0.011000000000000001;0.397;0.7;0.5;2.0
+000045;cereals-and-derivatives;Couscous, raw;1.0;0.13699999999999998;0.011000000000000001;0.765;0.7;0.5;2.0
+127120;fish-products;Mussel, raw;0.32;0.11699999999999999;0.027000000000000003;0.034;0.4;0.5;12.0
+001000;cereals-and-derivatives;Crackers with cheese;1.0;0.10099999999999999;0.255;0.5920000000000001;0.7;0.5;2.0
+001010;cereals-and-derivatives;Crackers with soybean;1.0;0.131;0.11699999999999999;0.677;0.7;0.5;2.0
+001030;cereals-and-derivatives;Crackers, wholemeal;1.0;0.12;0.114;0.617;0.7;0.5;2.0
+001020;cereals-and-derivatives;Crackers, salted;1.0;0.094;0.1;0.675;0.7;0.5;2.0
+140100;milk-and-yogurt;Milk Cream (fat 12%);1.0;0.027999999999999997;0.125;0.044000000000000004;0.7;0.5;2.0
+203500;sweets;Spread, hazelnut cocoa;1.0;0.069;0.324;0.581;0.5;0.4;6.0
+160890;cheese-and-dairy;Cheese, soft, crescenza;1.0;0.161;0.233;0.019;0.6;0.5;14.0
+002510;cereals-and-derivatives;Croissants;1.0;0.083;0.203;0.38;0.6;0.5;2.0
+208500;sweets;Tart with cacao cream, packed;1.0;0.046;0.247;0.67;0.6;0.5;6.0
+208520;sweets;Tart with apricot jam, packed;1.0;0.009000000000000001;0.165;0.7170000000000001;0.6;0.5;6.0
+208510;sweets;Tart with jam, packed;1.0;0.049;0.08199999999999999;0.655;0.6;0.5;6.0
+000150;cereals-and-derivatives;Wheat bran;1.0;0.141;0.055;0.266;0.9;0.8;2.0
+115210;offal;Heart, bovine, raw;1.0;0.168;0.06;0.005;0.6;0.5;5.0
+115219;offal;Heart, bovine, cooked;1.0;0.258;0.092;0.008;0.6;0.5;6.5
+115220;offal;Heart, horse;1.0;0.187;0.077;0.006;0.6;0.5;5.0
+115230;offal;Heart, ovine;1.0;0.16899999999999998;0.07200000000000001;0.004;0.6;0.5;5.0
+115240;offal;Heart, chicken, raw;1.0;0.141;0.051;0.002;0.6;0.5;5.0
+115249;offal;Heart, chicken, cooked;1.0;0.201;0.073;0.003;0.6;0.5;6.5
+115250;offal;Heart, swine, raw;1.0;0.183;0.094;0.004;0.6;0.5;5.0
+115260;offal;Heart, turkey, raw;1.0;0.141;0.051;0.002;0.6;0.5;5.0
+115269;offal;Heart, turkey, cooked;1.0;0.201;0.073;0.003;0.6;0.5;6.5
+503010;various-products;Stock cubes;1.0;0.157;0.187;0.05;0.5;0.4;4.0
+108100;fresh-meat;Buck, lean only, raw;1.0;0.21;0.012;0.0;0.65;0.6;12.0
+007630;fruit;Dates, dried;0.9;0.027000000000000003;0.006;0.631;0.4;0.4;3.25
+120910;fish-products;Dentex, raw;0.65;0.16699999999999998;0.035;0.006999999999999999;0.6;0.5;12.0
+120920;fish-products;Dentex, deep frozen;0.65;0.172;0.035;0.006999999999999999;0.6;0.5;12.0
+161200;cheese-and-dairy;Cheese, sweet green;1.0;0.191;0.21100000000000002;0.025;0.6;0.5;14.0
+161600;cheese-and-dairy;Cheese, edam;1.0;0.255;0.243;0.013999999999999999;0.6;0.5;14.0
+161610;cheese-and-dairy;Cheese, emmenthal;1.0;0.285;0.306;0.036000000000000004;0.6;0.5;14.0
+108510;fresh-meat;Pheasant, raw;0.85;0.243;0.052000000000000005;0.0;0.7;0.6;12.0
+004100;legumes;Beans, dried, raw;1.0;0.23600000000000002;0.02;0.475;0.8;0.8;3.0
+004220;legumes;Cowpeas, dried;1.0;0.22399999999999998;0.013999999999999999;0.509;0.8;0.8;3.0
+004110;legumes;Beans, Borlotti, fresh, raw;0.52;0.102;0.008;0.22699999999999998;0.8;0.8;3.0
+004115;legumes;Beans, Borlotti, fresh, boiled in distilled water, no salt, drained;1.0;0.057;0.005;0.11199999999999999;0.8;0.8;3.0
+004130;legumes;Beans, Borlotti, canned, drained;1.0;0.067;0.005;0.159;0.8;0.8;3.0
+004120;legumes;Beans, Borlotti, dried, raw;1.0;0.20199999999999999;0.02;0.47700000000000004;0.8;0.8;3.0
+004125;legumes;Beans, Borlotti, dried, boiled in distilled water, no salt, drained;1.0;0.069;0.004;0.16399999999999998;0.8;0.8;3.0
+004210;legumes;Beans, Cannellini, canned, drained;1.0;0.06;0.006;0.125;0.8;0.8;3.0
+004200;legumes;Beans, Cannellini, dried, raw;1.0;0.23399999999999999;0.016;0.455;0.8;0.8;3.0
+004205;legumes;Beans, Cannellini, dried, boiled in distilled water, no salt, drained;1.0;0.08;0.004;0.149;0.8;0.8;3.0
+004105;legumes;Beans, dried, boiled in distilled water, no salt, drained;1.0;0.079;0.006999999999999999;0.17;0.8;0.8;3.0
+004305;legumes;Italian flat bean, boiled in distilled water, no salt, drained;1.0;0.017;0.001;0.046;0.8;0.8;3.0
+004310;legumes;Green beans, fresh, raw;0.95;0.021;0.001;0.024;0.9;0.9;3.0
+004325;legumes;Green beans, frozen, boiled in distilled water, no salt, drained;1.0;0.017;0.001;0.046;0.8;0.5;3.0
+PE0004;ethnic-foods;Falafel;1.0;0.071;0.095;0.198;0.7;0.6;10.4
+106020;fresh-meat;Guinea Fowl, thigh, with skin, raw;0.85;0.243;0.038;0.003;0.7;0.6;12.0
+106032;fresh-meat;Guinea Fowl, leg, without skin, cooked on the spit, no salt, no fat added;0.77;0.344;0.061;0.003;0.7;0.6;15.6
+106030;fresh-meat;Guinea Fowl, thigh, without skin, raw;0.78;0.24;0.033;0.003;0.7;0.6;12.0
+106052;fresh-meat;Guinea Fowl, breast, without skin, cooked on the spit, no salt, no fat added;1.0;0.307;0.025;0.002;0.7;0.6;15.6
+106050;fresh-meat;Guinea Fowl, breast, without skin, raw;1.0;0.258;0.019;0.002;0.7;0.6;12.0
+000200;cereals-and-derivatives;Flour, oat;1.0;0.126;0.071;0.6629999999999999;0.8;0.7;2.0
+000210;cereals-and-derivatives;Flour, barley;1.0;0.106;0.019;0.684;0.8;0.7;2.0
+504010;nuts-and-oilseeds;Flour, chestnut;1.0;0.061;0.037000000000000005;0.62;0.8;0.7;14.0
+000250;cereals-and-derivatives;Flour, durum wheat;1.0;0.129;0.027999999999999997;0.632;0.9;0.8;2.0
+000240;cereals-and-derivatives;Flour, wheat wholemeal;1.0;0.11900000000000001;0.019;0.618;0.9;0.8;2.0
+000230;cereals-and-derivatives;Flour, wheat, type 0;1.0;0.115;0.01;0.695;0.9;0.8;2.0
+000220;cereals-and-derivatives;Flour, wheat, type 00;1.0;0.11;0.006999999999999999;0.716;0.9;0.8;2.0
+000260;cereals-and-derivatives;Flour, corn;1.0;0.087;0.027000000000000003;0.735;0.8;0.7;2.0
+000320;cereals-and-derivatives;Tapioca (manioc flour);1.0;0.006;0.002;0.872;0.4;0.4;2.0
+000270;cereals-and-derivatives;Flour, rice;1.0;0.073;0.005;0.7909999999999999;0.8;0.7;2.0
+000280;cereals-and-derivatives;Flour, rye;1.0;0.11699999999999999;0.02;0.6779999999999999;0.8;0.7;2.0
+000290;legumes;Flour, soybean;1.0;0.368;0.235;0.23399999999999999;0.8;0.7;3.0
+000025;cereals-and-derivatives;Emmer, grain, boiled in water, no salt, drained;1.0;0.062;0.01;0.373;0.8;0.7;2.0
+000020;cereals-and-derivatives;Emmer, grain;1.0;0.146;0.024;0.693;0.8;0.7;2.0
+004400;legumes;Broad beans, raw;0.26;0.052000000000000005;0.004;0.045;0.9;0.9;3.0
+004406;legumes;Broad beans, pan-fried without fat and salt;1.0;0.061;0.005;0.053;0.9;0.9;3.0
+004410;legumes;Broad beans, dried, raw;1.0;0.213;0.021;0.528;0.8;0.8;3.0
+004425;legumes;Broad beans, dried, shelled, boiled in distilled water, no salt, drained;1.0;0.11;0.013000000000000001;0.22399999999999998;0.8;0.8;3.0
+004420;legumes;Broad beans, dried, shelled, raw;1.0;0.252;0.03;0.536;0.8;0.8;3.0
+504100;various-products;Potato-Flour;1.0;0.013999999999999999;0.0;0.907;0.8;0.7;4.0
+115320;offal;Liver, bovine;1.0;0.2;0.044000000000000004;0.059000000000000004;0.6;0.5;5.0
+115329;offal;Liver, bovine, cooked;1.0;0.267;0.059000000000000004;0.079;0.6;0.5;6.5
+115340;offal;Liver, horse;1.0;0.22399999999999998;0.04;0.053;0.6;0.5;5.0
+115350;offal;Liver, ovine;1.0;0.195;0.055;0.02;0.6;0.5;5.0
+115360;offal;Liver, chicken, raw;1.0;0.228;0.063;0.015;0.6;0.5;5.0
+115369;offal;Liver, chicken, coocked;1.0;0.294;0.07400000000000001;0.02;0.6;0.5;6.5
+115370;offal;Liver, swine, raw;1.0;0.228;0.048;0.015;0.6;0.5;5.0
+115379;offal;Liver, swine, cooked;1.0;0.294;0.064;0.02;0.6;0.5;6.5
+115380;offal;Liver, turkey, raw;1.0;0.17800000000000002;0.06;0.005;0.6;0.5;5.0
+115389;offal;Liver, turkey, cooked;1.0;0.27399999999999997;0.092;0.008;0.6;0.5;6.5
+007550;fruit;Feijoa, fresh;0.67;0.006999999999999999;0.008;0.096;0.4;0.4;2.5
+162000;cheese-and-dairy;Cheese, feta;1.0;0.156;0.20199999999999999;0.015;0.6;0.5;14.0
+001500;cereals-and-derivatives;Rusks;1.0;0.113;0.06;0.75;0.8;0.6;2.0
+001510;cereals-and-derivatives;Rusks, wholemeal;1.0;0.142;0.1;0.63;0.8;0.6;2.0
+007080;fruit;Prickly Pear, fresh;0.64;0.008;0.001;0.13;0.7;0.6;2.5
+007060;fruit;Figs, candied;1.0;0.035;0.002;0.737;0.6;0.5;2.5
+007050;fruit;Figs, fresh;0.75;0.009000000000000001;0.002;0.142;0.9;0.9;2.5
+007053;fruit;Figs, dried in oven and almond added;1.0;0.052000000000000005;0.042;0.5820000000000001;0.6;0.5;3.25
+007070;fruit;Figs, dried;1.0;0.035;0.027000000000000003;0.58;0.6;0.5;2.5
+005324;vegetables-and-greens;Fennels, cooked by microwave;1.0;0.012;0.0;0.015;0.9;0.9;2.5
+005325;vegetables-and-greens;Fennels, boiled in distilled water, no salt, drained;1.0;0.013999999999999999;0.0;0.017;0.9;0.9;2.5
+005320;vegetables-and-greens;Fennels, raw;0.59;0.012;0.0;0.015;0.9;0.9;2.5
+003030;cereals-and-derivatives;Oat bran flakes;1.0;0.08;0.075;0.6679999999999999;0.8;0.7;2.0
+170010;cheese-and-dairy;Cheese, light, flakes;1.0;0.09699999999999999;0.071;0.032;0.6;0.5;14.0
+162010;cheese-and-dairy;Cheese, semisoft, fiordilatte;1.0;0.20600000000000002;0.203;0.006999999999999999;0.6;0.5;14.0
+005330;vegetables-and-greens;Squash Flowers, fresh;0.79;0.017;0.004;0.005;0.9;0.9;2.5
+005340;vegetables-and-greens;Turnip, leaf, raw;0.63;0.026000000000000002;0.001;0.027999999999999997;0.9;0.9;2.5
+162020;cheese-and-dairy;Cheese, fontina;1.0;0.245;0.289;0.008;0.6;0.5;14.0
+162030;cheese-and-dairy;Cheese, soft, formaggino;1.0;0.11199999999999999;0.26899999999999996;0.06;0.6;0.5;14.0
+162040;cheese-and-dairy;Cheese, soft, formaggino light;1.0;0.147;0.17300000000000001;0.065;0.6;0.5;14.0
+162050;cheese-and-dairy;Cheese, spreadable, soft white, full fat;1.0;0.086;0.31;0.0;0.6;0.5;14.0
+170510;cheese-and-dairy;Cheese, spreadable, soft white, low fat;1.0;0.092;0.145;0.031;0.6;0.5;14.0
+160400;cheese-and-dairy;Cheese, semi soft;1.0;0.254;0.302;0.01;0.6;0.5;14.0
+007730;fruit;Strawberry;0.94;0.009000000000000001;0.004;0.053;0.95;0.95;2.5
+PC0011;italian-recipes;Omelette;1.0;0.161;0.134;0.0;0.7;0.7;10.4
+PC0032;italian-recipes;Omelette with baked ham and cheese;1.0;0.162;0.154;0.003;0.7;0.7;10.4
+000030;cereals-and-derivatives;Durum wheat, grain;1.0;0.13;0.028999999999999998;0.625;0.9;0.8;2.0
+000040;cereals-and-derivatives;Soft wheat, grain;1.0;0.12300000000000001;0.026000000000000002;0.652;0.9;0.8;2.0
+PE0014;ethnic-foods;Mixed fruit caramel;1.0;0.019;0.08;0.36;0.6;0.5;10.4
+006016;vegetables-and-greens;Mushrooms, pleurotes, pan-fried, no salt, no fat added;1.0;0.026000000000000002;0.004;0.053;0.8;0.7;2.5
+006010;vegetables-and-greens;Mushrooms, pleurotes, raw;0.98;0.022000000000000002;0.003;0.055999999999999994;0.8;0.7;2.5
+006006;vegetables-and-greens;Mushrooms, prataioli, pan-fried, no salt, no fat added;1.0;0.07;0.004;0.015;0.8;0.7;2.5
+006000;vegetables-and-greens;Mushrooms, prataioli, raw;0.95;0.037000000000000005;0.002;0.008;0.8;0.7;2.5
+006020;vegetables-and-greens;Mushrooms, ovuli, raw;0.87;0.02;0.003;0.016;0.8;0.7;2.5
+006030;vegetables-and-greens;Mushrooms, porcini, raw;0.92;0.039;0.006999999999999999;0.01;0.8;0.7;2.5
+106100;fresh-meat;Hen;0.7;0.209;0.12300000000000001;0.0;0.7;0.6;12.0
+PE0013;ethnic-foods;Prawns with mushrooms and bamboo;1.0;0.086;0.073;0.019;0.6;0.5;10.4
+128100;fish-products;Prawns, raw;0.45;0.136;0.006;0.028999999999999998;0.6;0.5;12.0
+128110;fish-products;Prawns, shelled, frozen;1.0;0.165;0.009000000000000001;0.028999999999999998;0.6;0.5;12.0
+PC0043;italian-recipes;Potato flan;1.0;0.091;0.077;0.11599999999999999;0.8;0.7;8.0
+206260;sweets;Ice Cream cookie with cream, zabaione and chocolate;1.0;0.053;0.073;0.491;0.5;0.4;6.0
+206010;sweets;Ice Cream, cocoa cream ice, packed;1.0;0.036000000000000004;0.071;0.253;0.5;0.4;6.0
+206020;sweets;Ice Cream, coffee, packed;1.0;0.051;0.15;0.239;0.5;0.4;6.0
+206270;sweets;Ice Cream, cone with cream and chocolate, packed;1.0;0.051;0.155;0.349;0.5;0.4;6.0
+206280;sweets;Ice Cream, cone with cream, chocolate chip, hazelnut, packed;1.0;0.042;0.205;0.33299999999999996;0.5;0.4;6.0
+206040;sweets;Ice Cream, milk shower, packed;1.0;0.042;0.13699999999999998;0.207;0.5;0.4;6.0
+206050;sweets;Ice Cream, milk shower, coated by strawbery ice lolly, packed;1.0;0.013999999999999999;0.017;0.213;0.5;0.4;6.0
+206710;sweets;Popsicle, orange ice lolly, packed;1.0;0.0;0.0;0.365;0.5;0.4;6.0
+206060;sweets;Ice Cream, hazelnut, packed in dish;1.0;0.033;0.084;0.252;0.5;0.4;6.0
+206080;sweets;Ice Cream, cream coated by dark chocolate, packed;1.0;0.045;0.214;0.282;0.5;0.4;6.0
+206070;sweets;Ice Cream, cream, packed;1.0;0.032;0.08199999999999999;0.272;0.5;0.4;6.0
+206800;sweets;Sorbet, lemon, packed;1.0;0.009000000000000001;0.0;0.342;0.5;0.4;6.0
+206090;sweets;Ice Cream, stracciatella (cream with chocolate chips), packed;1.0;0.028999999999999998;0.07;0.315;0.5;0.4;6.0
+206100;sweets;Ice Cream, vanille, packed;1.0;0.027000000000000003;0.067;0.257;0.5;0.4;6.0
+PE0015;ethnic-foods;Mixed Fried Ice Cream;1.0;0.042;0.11699999999999999;0.34700000000000003;0.5;0.4;10.4
+000330;cereals-and-derivatives;Wheat germ;1.0;0.26;0.1;0.435;0.9;0.8;2.0
+005350;vegetables-and-greens;Soy Sprouts;0.98;0.062;0.013999999999999999;0.03;0.85;0.7;2.5
+PC0024;italian-recipes;Gnocchi with pesto sauce;1.0;0.064;0.084;0.217;0.8;0.7;10.4
+PC0023;italian-recipes;Gnocchi with ragù;1.0;0.084;0.09;0.154;0.8;0.7;10.4
+PC0022;italian-recipes;Gnocchi with tomato sauce;1.0;0.025;0.027999999999999997;0.19399999999999998;0.8;0.7;10.4
+006591;cereals-and-derivatives;Potato gnocchi, cooked;1.0;0.035;0.002;0.34;0.8;0.7;2.0
+006590;cereals-and-derivatives;Potato gnocchi, raw;1.0;0.039;0.003;0.379;0.8;0.7;2.0
+202500;sweets;Chewing Gum, bars and confections;1.0;0.0;0.0;0.7;0.5;0.4;6.0
+162400;cheese-and-dairy;Cheese, soft, gorgonzola;1.0;0.191;0.271;0.01;0.6;0.5;14.0
+162410;cheese-and-dairy;Cheese, Grana Padano, PDO, hard cheese;1.0;0.33899999999999997;0.285;0.0;0.8;0.7;18.2
+128200;fish-products;Crab, canned;1.0;0.18100000000000002;0.009000000000000001;0.0;0.6;0.5;12.0
+000050;cereals-and-derivatives;Buckwheat, grain;1.0;0.124;0.033;0.612;0.8;0.7;2.0
+002000;cereals-and-derivatives;Breadsticks;1.0;0.113;0.139;0.6509999999999999;0.8;0.7;2.0
+162420;cheese-and-dairy;Cheese, gruyere;1.0;0.306;0.321;0.015;0.6;0.5;14.0
+007560;fruit;Guava, fresh;0.98;0.006999999999999999;0.005;0.035;0.4;0.4;2.5
+121010;fish-products;Halibut, raw;0.8;0.20600000000000002;0.035;0.0;0.6;0.5;12.0
+119050;meat-based-fast-food;Hamburger, only meat, fast food preparation;1.0;0.245;0.184;0.0;0.5;0.4;10.4
+119030;meat-based-fast-food;Hamburger, fast food preparation;1.0;0.131;0.091;0.301;0.5;0.4;10.4
+PE0016;ethnic-foods;Hummus;1.0;0.062;0.11;0.094;0.8;0.7;10.4
+005400;vegetables-and-greens;Endive, fresh;0.69;0.009000000000000001;0.003;0.027000000000000003;0.85;0.9;2.5
+PE0006;ethnic-foods;Spring rolls;1.0;0.035;0.154;0.21600000000000003;0.6;0.5;10.4
+163200;cheese-and-dairy;Cheese, italico;1.0;0.212;0.252;0.012;0.6;0.5;14.0
+PE0003;ethnic-foods;Kebab only meat;1.0;0.297;0.16699999999999998;0.0;0.5;0.4;10.4
+502260;various-products;Tomato Ketchup;1.0;0.021;0.0;0.24;0.6;0.5;4.0
+007570;fruit;Kiwi, fresh;0.87;0.012;0.006;0.09;0.85;0.8;2.5
+007740;fruit;Raspberry;1.0;0.01;0.006;0.065;0.95;0.95;2.5
+191010;oils-and-fats;Lard, spread;1.0;0.0;0.99;0.0;0.5;0.4;6.0
+PC0048;italian-recipes;Lasagna;1.0;0.11699999999999999;0.10800000000000001;0.134;0.7;0.6;8.0
+121100;fish-products;Sand Smelt, raw;1.0;0.146;0.096;0.0;0.6;0.5;12.0
+132010;milk-and-yogurt;Milk, buffalo;1.0;0.045;0.085;0.051;0.8;0.7;2.0
+130010;milk-and-yogurt;Milk, goat;1.0;0.039;0.048;0.047;0.8;0.7;2.0
+131010;milk-and-yogurt;Milk, sheep;1.0;0.053;0.069;0.052000000000000005;0.8;0.7;2.0
+135510;milk-and-yogurt;Milk, cow, condensed, sugared;1.0;0.087;0.09;0.565;0.6;0.5;2.0
+135520;milk-and-yogurt;Milk, cow, dry off, not sugared;1.0;0.07;0.08199999999999999;0.086;0.6;0.5;2.0
+135610;milk-and-yogurt;Milk, cow, whole, dried;1.0;0.257;0.249;0.42;0.6;0.5;2.0
+135620;milk-and-yogurt;Milk, cow, partially skimmed, dried;1.0;0.28800000000000003;0.127;0.502;0.6;0.5;2.0
+135630;milk-and-yogurt;Milk, cow, skimmed, dried;1.0;0.331;0.009000000000000001;0.562;0.6;0.5;2.0
+135010;milk-and-yogurt;Milk, cow, whole;1.0;0.033;0.036000000000000004;0.049;0.8;0.7;2.0
+135020;milk-and-yogurt;Milk, cow, partially skimmed;1.0;0.035;0.015;0.05;0.8;0.7;2.0
+135030;milk-and-yogurt;Milk, cow, skimmed;1.0;0.036000000000000004;0.002;0.053;0.8;0.7;2.0
+135810;milk-and-yogurt;Milk, cow, uht, whole;1.0;0.033;0.036000000000000004;0.047;0.8;0.7;2.0
+135820;milk-and-yogurt;Milk, cow, uht, partially skimmed;1.0;0.032;0.016;0.051;0.8;0.7;2.0
+164400;cheese-and-dairy;Cheese, semihard, latteria;1.0;0.307;0.364;0.013999999999999999;0.85;0.7;14.0
+005420;vegetables-and-greens;Iceberg Lettuce, fresh;0.92;0.015;0.002;0.03;0.95;0.95;2.5
+005430;vegetables-and-greens;Boston Lettuce, fresh;0.83;0.011000000000000001;0.001;0.022000000000000002;0.95;0.95;2.5
+005410;vegetables-and-greens;Lettuce, fresh;0.8;0.018000000000000002;0.004;0.022000000000000002;0.95;0.95;2.5
+005436;vegetables-and-greens;Lettuce, packaged, ready-to-use;1.0;0.013999999999999999;0.002;0.013999999999999999;0.9;0.9;2.5
+005435;vegetables-and-greens;Lettuce small, fresh;0.8;0.015;0.002;0.013999999999999999;0.95;0.95;2.5
+202030;sweets;Tablets, sugar-coated chocolate;1.0;0.054000000000000006;0.175;0.7390000000000001;0.45;0.5;6.0
+004510;legumes;Lentils, canned, drained;1.0;0.05;0.005;0.154;0.85;0.7;3.0
+004500;legumes;Lentils, dried, raw;1.0;0.22699999999999998;0.01;0.511;0.9;0.7;3.0
+004505;legumes;Lentils, dried, boiled in distilled water, no salt, drained;1.0;0.069;0.004;0.163;0.9;0.7;3.0
+503100;various-products;Yeast, compressed;1.0;0.121;0.004;0.011000000000000001;0.9;0.8;4.0
+008030;fruit;Lemons;0.64;0.006;0.0;0.025;0.8;0.8;2.5
+008040;fruit;Lemons, juice;1.0;0.002;0.0;0.025;0.8;0.8;2.5
+115400;offal;Toungue, bovine, raw;1.0;0.171;0.18;0.004;0.6;0.5;5.0
+115409;offal;Tongue Bovine, fried;1.0;0.228;0.24;0.005;0.6;0.5;6.5
+007580;fruit;Litchi, fresh;0.72;0.011000000000000001;0.001;0.172;0.4;0.2;2.5
+007090;fruit;Persimmon, fresh;0.97;0.006;0.003;0.16;0.4;0.1;2.5
+121200;fish-products;Pike, raw;0.56;0.187;0.006;0.001;0.55;0.5;12.0
+109010;fresh-meat;Snail, raw;0.24;0.129;0.017;0.0;0.75;0.4;12.0
+004600;legumes;Lupines, dried, rehydrated;0.76;0.16399999999999998;0.024;0.071;0.85;0.7;3.0
+008620;nuts-and-oilseeds;Macadamia Nuts;1.0;0.08;0.76;0.051;0.3;0.2;14.0
+PE0012;ethnic-foods;Sweet and Sour pork;1.0;0.087;0.146;0.177;0.5;0.3;10.4
+105236;fresh-meat;Swine, light, steak, cooked in pan, no salt and fat added;0.75;0.254;0.095;0.0;0.65;0.5;12.0
+105230;fresh-meat;Swine, light, steak, raw;0.74;0.213;0.08;0.0;0.65;0.5;12.0
+105200;fresh-meat;Swine, light, leg;0.87;0.20199999999999999;0.032;0.0;0.7;0.6;12.0
+105210;fresh-meat;Swine, light, loin;0.79;0.207;0.07;0.0;0.7;0.6;12.0
+105600;fresh-meat;Swine, heavy, leg;0.9;0.204;0.051;0.0;0.7;0.6;12.0
+105700;fresh-meat;Swine, heavy, loin;0.78;0.20800000000000002;0.099;0.0;0.7;0.6;12.0
+105800;fresh-meat;Swine, heavy, shoulder;0.94;0.19;0.08900000000000001;0.0;0.7;0.6;12.0
+105220;fresh-meat;Swine, light, shoulder;0.79;0.19;0.063;0.0;0.7;0.6;12.0
+PC0049;italian-recipes;Mayonnaise, homemade;1.0;0.032;0.7190000000000001;0.001;0.55;0.5;8.0
+502760;various-products;Mayonnaise, packed;1.0;0.043;0.7;0.021;0.45;0.5;4.0
+000060;cereals-and-derivatives;Sweet corn, grain;1.0;0.092;0.038;0.7509999999999999;0.9;0.7;2.0
+000300;cereals-and-derivatives;Corn, starch;1.0;0.003;0.0;0.87;0.85;0.6;2.0
+000070;cereals-and-derivatives;Sweet corn, grain, canned;1.0;0.034;0.013000000000000001;0.205;0.85;0.6;2.0
+008050;fruit;Tangerines, fresh;0.87;0.008;0.002;0.128;0.6;0.2;2.5
+008060;fruit;Mandarins, fresh;0.8;0.009000000000000001;0.003;0.17600000000000002;0.6;0.2;2.5
+008540;nuts-and-oilseeds;Almonds, sweet, dried;0.24;0.22;0.5529999999999999;0.046;0.5;0.4;14.0
+007590;fruit;Mango, fresh;0.73;0.01;0.002;0.126;0.35;0.1;2.5
+009100;oils-and-fats;Margarine (100% vegetable);1.0;0.006;0.84;0.004;0.45;0.5;6.0
+009110;oils-and-fats;"Margarine (1/3 vegetable fats; 2/3 animal fats)";1.0;0.006999999999999999;0.84;0.004;0.4;0.5;6.0
+204500;sweets;Jam;1.0;0.005;0.0;0.5870000000000001;0.6;0.5;6.0
+164800;cheese-and-dairy;Cheese, soft, mascarpone;1.0;0.076;0.47;0.003;0.7;0.5;14.0
+007100;fruit;Pomegranate, fresh;0.59;0.005;0.002;0.159;0.6;0.2;2.5
+005507;vegetables-and-greens;Eggplants, cooked by microwave, no salt;1.0;0.008;0.004;0.03;0.9;0.7;2.5
+005506;vegetables-and-greens;Eggplants, pan-fried without fat and salt;1.0;0.013000000000000001;0.006999999999999999;0.054000000000000006;0.9;0.7;2.5
+005500;vegetables-and-greens;Eggplants, raw;0.92;0.01;0.004;0.026000000000000002;0.9;0.7;2.5
+007220;fruit;Quince, fresh;0.79;0.003;0.001;0.063;0.6;0.2;2.5
+007190;fruit;Apples, dehydrated;1.0;0.013000000000000001;0.02;0.8220000000000001;0.9;0.7;3.25
+007130;fruit;Apples, fresh, var. annurca;0.84;0.003;0.001;0.102;0.85;0.8;2.5
+007120;fruit;Apples, fresh, with peel;0.85;0.002;0.0;0.1;0.85;0.8;2.5
+007140;fruit;Apples, fresh, var. delicious;0.79;0.002;0.001;0.111;0.85;0.8;2.5
+007150;fruit;Apples, fresh, var. golden deliciuos;0.73;0.004;0.001;0.107;0.85;0.8;2.5
+007160;fruit;Apples, fresh, var. granny smith;0.81;0.005;0.001;0.094;0.85;0.8;2.5
+007170;fruit;Apples, fresh, var. emperor;0.75;0.002;0.001;0.113;0.85;0.8;2.5
+007180;fruit;Apples, fresh, var. renetta;0.71;0.003;0.001;0.1;0.85;0.8;2.5
+007110;fruit;Apples, fresh, peel removed;0.79;0.003;0.001;0.13699999999999998;0.85;0.8;2.5
+007230;fruit;Cantaloupe, fresh;0.47;0.008;0.002;0.07400000000000001;0.9;0.8;2.5
+007240;fruit;Santa Claus Melon, fresh;0.51;0.005;0.002;0.049;0.9;0.8;2.5
+121310;fish-products;Whiting, raw;0.65;0.174;0.003;0.0;0.6;0.5;12.0
+121330;fish-products;Whiting, stockfish, dried, rehydrated;0.85;0.207;0.009000000000000001;0.003;0.6;0.5;15.6
+121320;fish-products;Whiting, stockfish, dried;0.78;0.8009999999999999;0.035;0.011000000000000001;0.6;0.5;15.6
+006810;vegetables-and-greens;Mint Leaves, fresh;1.0;0.038;0.006999999999999999;0.053;0.95;0.9;2.5
+210030;sweets;Short cake, with jam, packed;1.0;0.055;0.095;0.679;0.5;0.5;6.0
+210040;sweets;Short cake, wtih cocoa, packed;1.0;0.062;0.151;0.655;0.5;0.5;6.0
+210060;sweets;Short cake, like brioche, packed;1.0;0.08199999999999999;0.17600000000000002;0.657;0.5;0.5;6.0
+210050;sweets;Short cake, like sponge cake,packed;1.0;0.07400000000000001;0.131;0.627;0.5;0.5;6.0
+210070;sweets;Short cake, like shortcrust pastry, packed;1.0;0.053;0.171;0.7170000000000001;0.5;0.5;6.0
+PC0015;italian-recipes;Stewed cod;1.0;0.09699999999999999;0.043;0.017;0.65;0.5;10.4
+121410;fish-products;Cod, raw;0.76;0.17;0.003;0.0;0.65;0.5;12.0
+121450;fish-products;Cod, codfish, dried, rehydrated, raw;0.82;0.21600000000000003;0.01;0.0;0.65;0.5;15.6
+121440;fish-products;Cod, codfish, dried, raw;0.75;0.29;0.017;0.0;0.65;0.5;15.6
+121490;fish-products;Cod, fish' s sticks, deep frozen;1.0;0.11;0.10099999999999999;0.15;0.45;0.5;15.6
+121420;fish-products;Cod, deep frozen, raw;0.75;0.17300000000000001;0.006;0.0;0.45;0.5;12.0
+121424;fish-products;Cod, deep frozen, cooked by microwave;0.75;0.248;0.009000000000000001;0.0;0.45;0.5;12.0
+121423;fish-products;Cod, deep frozen, roasted in oven;0.75;0.175;0.009000000000000001;0.0;0.45;0.5;12.0
+121430;fish-products;Cod, fillet, deep frozen;1.0;0.156;0.006;0.0;0.45;0.5;12.0
+210010;sweets;Honey;1.0;0.006;0.0;0.8029999999999999;0.95;0.9;6.0
+000080;cereals-and-derivatives;Millet, grain;1.0;0.11800000000000001;0.039;0.649;0.85;0.6;2.0
+000081;cereals-and-derivatives;Millet, decorticated, grain;1.0;0.11;0.042;0.6779999999999999;0.85;0.6;2.0
+115500;offal;Spleen, bovine;1.0;0.185;0.037000000000000005;0.0;0.6;0.5;5.0
+900010;various-products;Soup, canned, asparagus cream;1.0;0.01;0.006999999999999999;0.042;0.6;0.5;4.0
+900110;various-products;Soup, canned, onion cream;1.0;0.022000000000000002;0.01;0.022000000000000002;0.6;0.5;4.0
+900210;various-products;Soup, canned, mushrooms cream;1.0;0.01;0.04;0.042;0.6;0.5;4.0
+900310;various-products;Soup, canned, chicken cream;1.0;0.017;0.038;0.045;0.6;0.5;4.0
+900410;various-products;Soup, canned, tomato cream;1.0;0.008;0.01;0.064;0.6;0.5;4.0
+905100;various-products;Potage, freezer-dried;1.0;0.10099999999999999;0.08800000000000001;0.47600000000000003;0.6;0.5;4.0
+905010;vegetables-and-greens;Potage, cooked,freeze;1.0;0.02;0.004;0.078;0.6;0.5;2.5
+007760;fruit;Blueberry;1.0;0.009000000000000001;0.002;0.10099999999999999;0.95;0.9;2.5
+007750;fruit;Blackberry, wild;1.0;0.013000000000000001;0.0;0.081;0.95;0.9;2.5
+121500;fish-products;Poor Cod, raw;1.0;0.18;0.019;0.02;0.65;0.5;12.0
+110200;processed-and-preserved-meat;Mortadella, Bologna, swine;1.0;0.157;0.25;0.0;0.6;0.5;23.4
+110210;processed-and-preserved-meat;Mortadella, bovine & swine;1.0;0.133;0.37;0.005;0.6;0.5;23.4
+164810;cheese-and-dairy;Mozzarella, buffalo milk;1.0;0.16699999999999998;0.244;0.004;0.85;0.7;14.0
+164811;cheese-and-dairy;Mozzarella, buffalo milk, PDO;1.0;0.141;0.217;0.013999999999999999;0.85;0.7;18.2
+164820;cheese-and-dairy;Mozzarella, cow milk;1.0;0.187;0.195;0.006999999999999999;0.85;0.7;14.0
+003040;cereals-and-derivatives;Muesli;1.0;0.09699999999999999;0.06;0.7170000000000001;0.8;0.7;2.0
+PE0002;ethnic-foods;Nachos;1.0;0.065;0.261;0.638;0.4;0.2;10.4
+007250;fruit;Loquats, fresh;0.66;0.004;0.004;0.061;0.6;0.2;2.5
+008550;nuts-and-oilseeds;Hazelnuts, dried;0.42;0.138;0.6409999999999999;0.061;0.7;0.5;14.0
+008560;nuts-and-oilseeds;Walnuts;0.58;0.105;0.5770000000000001;0.055;0.7;0.5;14.0
+008580;nuts-and-oilseeds;Pecan Nuts;0.49;0.07200000000000001;0.718;0.079;0.4;0.2;14.0
+008570;nuts-and-oilseeds;Walnuts, dried;0.39;0.14300000000000002;0.6809999999999999;0.051;0.7;0.5;14.0
+PE0007;ethnic-foods;Shrimp clouds;1.0;0.008;0.38;0.57;0.4;0.2;10.4
+106150;fresh-meat;Goose;0.7;0.158;0.344;0.0;0.7;0.6;12.0
+121600;fish-products;Saddled Bream, raw;1.0;0.19;0.037000000000000005;0.02;0.65;0.5;12.0
+009799;oils-and-fats;Vegetable Oils (Olive, soy, mais, etc.);1.0;0.0;0.9990000000000001;0.0;0.85;0.7;6.0
+009610;oils-and-fats;Peanuts Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009620;oils-and-fats;Coconut Oil;1.0;0.0;0.9990000000000001;0.0;0.4;0.2;6.0
+009630;oils-and-fats;Rapeseed Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+194000;oils-and-fats;Cod liver oil;1.0;0.0;0.9990000000000001;0.0;0.65;0.5;6.0
+009640;oils-and-fats;Wheatgerm Oil;1.0;0.0;0.9990000000000001;0.0;0.7;0.6;6.0
+009650;oils-and-fats;Sunflower Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009660;oils-and-fats;Corn Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009670;oils-and-fats;Almond Sweet Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009200;oils-and-fats;Olive Oil;1.0;0.0;0.9990000000000001;0.0;0.95;0.9;6.0
+009210;oils-and-fats;Olive Oil, extra-virgin;1.0;0.0;0.9990000000000001;0.0;0.95;0.9;6.0
+009680;oils-and-fats;Palm Oil;1.0;0.0;0.9990000000000001;0.0;0.3;0.2;6.0
+009690;oils-and-fats;Sesame Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009700;oils-and-fats;Soya Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+009710;oils-and-fats;Grapeseed Oil;1.0;0.0;0.9990000000000001;0.0;0.6;0.5;6.0
+008850;fruit;Olive Giarrafa;0.83;0.013999999999999999;0.2;0.0019;0.85;0.8;2.5
+008840;fruit;Olive Nocellara del Belice;0.83;0.013999999999999999;0.221;0.0006;0.85;0.8;2.5
+008800;fruit;Table Olive, preserved;0.83;0.015;0.27;0.05;0.8;0.7;2.5
+008810;fruit;Black Olive;0.74;0.016;0.251;0.008;0.8;0.7;2.5
+008820;fruit;Green Olive;0.84;0.008;0.15;0.01;0.8;0.7;2.5
+008830;fruit;Green Olive, in brine;0.78;0.012;0.11;0.01;0.8;0.7;2.5
+121730;fish-products;Glithead, fish breeding, fillets, raw;1.0;0.19699999999999998;0.084;0.012;0.65;0.5;12.0
+121720;fish-products;Glithead, fillets, raw;1.0;0.207;0.038;0.01;0.65;0.5;12.0
+121710;fish-products;Gilthead, deep frozen, raw;0.69;0.198;0.012;0.01;0.65;0.5;12.0
+000090;cereals-and-derivatives;Pearled barley, grain;1.0;0.094;0.015;0.737;0.9;0.7;2.0
+000095;cereals-and-derivatives;Pearled barley, grain, boiled in water, no salt, drained;1.0;0.026000000000000002;0.006;0.264;0.9;0.7;2.0
+127130;fish-products;Oyster, raw;0.12;0.102;0.009000000000000001;0.054000000000000006;0.2;0.2;12.0
+121800;fish-products;Red bream, raw;1.0;0.21;0.019;0.0;0.65;0.5;12.0
+121900;fish-products;Giltheat bream, raw;1.0;0.2;0.03;0.03;0.65;0.5;12.0
+122000;fish-products;Dogfish, raw;0.65;0.16;0.012;0.013000000000000001;0.65;0.5;12.0
+PC0045;italian-recipes;Sponge cake;1.0;0.10099999999999999;0.051;0.49700000000000005;0.45;0.5;8.0
+110320;processed-and-preserved-meat;Bacon, rolled, swine;1.0;0.151;0.522;0.0;0.55;0.5;23.4
+110300;processed-and-preserved-meat;Bacon, fat reduced, swine;1.0;0.217;0.253;0.0;0.55;0.5;23.4
+110310;processed-and-preserved-meat;Bacon, tense, swine;1.0;0.209;0.281;0.0;0.55;0.5;23.4
+000500;cereals-and-derivatives;Malted bread;1.0;0.083;0.024;0.5660000000000001;0.9;0.7;2.0
+000600;cereals-and-derivatives;Bread, unleavened;1.0;0.107;0.01;0.8170000000000001;0.9;0.7;2.0
+000530;cereals-and-derivatives;Bread, flour type 0;1.0;0.081;0.005;0.595;0.9;0.7;2.0
+000510;cereals-and-derivatives;Rye bread;1.0;0.083;0.017;0.45399999999999996;0.9;0.7;2.0
+000550;cereals-and-derivatives;Wholemeal bread;1.0;0.085;0.013000000000000001;0.441;0.9;0.7;2.0
+000540;cereals-and-derivatives;Bread, flour type 1;1.0;0.083;0.003;0.52;0.9;0.7;2.0
+000560;cereals-and-derivatives;Bread, flour type 00, rosetta;1.0;0.09;0.019;0.5760000000000001;0.9;0.7;2.0
+216000;sweets;Panettone, packed;1.0;0.064;0.107;0.562;0.45;0.5;6.0
+000570;cereals-and-derivatives;Bread crumbs;1.0;0.10099999999999999;0.021;0.778;0.9;0.7;2.0
+000580;cereals-and-derivatives;Bread rolls, with milk;1.0;0.09;0.087;0.48100000000000004;0.9;0.7;2.0
+000590;cereals-and-derivatives;Bread rolls, with oil;1.0;0.077;0.057999999999999996;0.526;0.9;0.7;2.0
+119070;meat-based-fast-food;Bread and small hamburger, fast food preparation;1.0;0.156;0.08900000000000001;0.29;0.45;0.5;10.4
+119060;meat-based-fast-food;Bread, fast food preparation;1.0;0.10099999999999999;0.03;0.47;0.45;0.5;10.4
+140400;milk-and-yogurt;Milk Cream, UHT, 23% lipid;1.0;0.027000000000000003;0.23;0.04;0.7;0.6;2.0
+140300;milk-and-yogurt;Milk Cream, 35% lipid;1.0;0.023;0.35;0.034;0.7;0.6;2.0
+007600;fruit;Pawpaw, fresh;0.7;0.004;0.001;0.069;0.4;0.2;2.5
+507100;various-products;Royal Jelly;1.0;0.1;0.06;0.14;0.9;0.8;4.0
+PC0042;italian-recipes;Parmesan aubergine;1.0;0.07;0.21;0.04;0.9;0.7;8.0
+166000;cheese-and-dairy;Cheese, Parmigiano Reggiano, PDO, hard cheese;1.0;0.324;0.297;0.0;0.95;0.8;18.2
+007610;fruit;Passion Fruit, fresh;0.42;0.03;0.003;0.057;0.4;0.2;2.5
+PC0035;italian-recipes;Pasta with garlic, olive oil and chili pepper;1.0;0.042;0.079;0.265;0.9;0.7;10.4
+PC0018;italian-recipes;Pasta with pesto sauce;1.0;0.067;0.07200000000000001;0.214;0.9;0.7;10.4
+PC0017;italian-recipes;Pasta with ragù;1.0;0.084;0.08;0.16;0.9;0.7;10.4
+PC0016;italian-recipes;Pasta with tomato sauce;1.0;0.033;0.026000000000000002;0.195;0.9;0.7;10.4
+000870;cereals-and-derivatives;Egg pasta, dried, raw;1.0;0.13;0.024;0.71;0.9;0.7;2.0
+000871;cereals-and-derivatives;Egg pasta, dried, boiled in distilled water, no salt;1.0;0.046;0.008;0.255;0.9;0.7;2.0
+PC0039;italian-recipes;Amatriciana Pasta;1.0;0.075;0.11;0.287;0.9;0.7;10.4
+PC0037;italian-recipes;Carbonara Pasta;1.0;0.10800000000000001;0.10300000000000001;0.284;0.9;0.7;10.4
+PC0038;italian-recipes;Pasta with clams;1.0;0.067;0.024;0.28300000000000003;0.9;0.7;10.4
+PC0034;italian-recipes;Pasta with butter and Parmesan;1.0;0.06;0.061;0.273;0.9;0.7;10.4
+PC0033;italian-recipes;Pasta with sheep cheese and pepper;1.0;0.069;0.038;0.27399999999999997;0.9;0.7;10.4
+217000;nuts-and-oilseeds;Almond paste;1.0;0.099;0.23399999999999999;0.546;0.5;0.4;14.0
+000800;cereals-and-derivatives;Pasta, durum wheat flour, raw;1.0;0.135;0.012;0.727;0.9;0.7;2.0
+000805;cereals-and-derivatives;Pasta, durum wheat flour, boiled in distilled water, no salt;1.0;0.069;0.006;0.373;0.9;0.7;2.0
+000850;cereals-and-derivatives;Pasta, wholemeal durum wheat, raw;1.0;0.133;0.022000000000000002;0.648;0.9;0.7;2.0
+000855;cereals-and-derivatives;Pasta, wholemeal durum wheat, boiled in distilled water, no salt;1.0;0.07400000000000001;0.012;0.36;0.9;0.7;2.0
+PC0010;italian-recipes;Pasta and beans;1.0;0.049;0.051;0.122;0.9;0.7;10.4
+PC0050;italian-recipes;Pasta, wholemeal durum wheat, with tomato sauce;1.0;0.046;0.032;0.213;0.9;0.7;10.4
+PC0046;italian-recipes;Pastiera cake;1.0;0.07200000000000001;0.11;0.436;0.45;0.5;10.4
+006584;vegetables-and-greens;Potatoes, new or earlies, cooked by microwave, no salt;1.0;0.02;0.003;0.157;0.9;0.9;2.5
+006585;vegetables-and-greens;Potatoes, new or earlies, boiled in distilled water, no salt;1.0;0.019;0.002;0.149;0.9;0.9;2.5
+006580;vegetables-and-greens;Potatoes, new or earlies, raw;0.96;0.02;0.003;0.157;0.9;0.9;2.5
+006505;vegetables-and-greens;Potatoes, boiled in distilled water, no salt;0.83;0.021;0.01;0.179;0.9;0.9;2.5
+006514;vegetables-and-greens;Potatoes, skinned, cooked by microwave, no salt;1.0;0.021;0.01;0.179;0.9;0.9;2.5
+006511;vegetables-and-greens;Potatoes, skinned, roasted;1.0;0.028999999999999998;0.045;0.257;0.9;0.9;2.5
+006500;vegetables-and-greens;Potatoes, raw;0.83;0.02;0.001;0.16;0.9;0.9;2.5
+006517;vegetables-and-greens;Potatoes, skinned, fried;1.0;0.039;0.067;0.299;0.8;0.8;2.5
+006515;vegetables-and-greens;Potatoes, skinned, boiled in distilled water, no salt;1.0;0.018000000000000002;0.001;0.16899999999999998;0.9;0.9;2.5
+006570;vegetables-and-greens;Potato Chips, packed;1.0;0.054000000000000006;0.29600000000000004;0.58;0.45;0.5;6.0
+119080;meat-based-fast-food;French fries, fast food preparation;1.0;0.033;0.13699999999999998;0.376;0.45;0.5;10.4
+114010;processed-and-preserved-meat;Pate, rabbit;1.0;0.13;0.322;0.011000000000000001;0.6;0.5;23.4
+114020;processed-and-preserved-meat;Pate, liver;1.0;0.127;0.317;0.013000000000000001;0.6;0.5;23.4
+114030;processed-and-preserved-meat;Pate, chicken;1.0;0.111;0.262;0.023;0.6;0.5;23.4
+114040;processed-and-preserved-meat;Pate, ham;1.0;0.113;0.34299999999999997;0.011000000000000001;0.6;0.5;23.4
+104610;fresh-meat;Sheep, lean only, raw;1.0;0.21;0.040999999999999995;0.0;0.7;0.6;12.0
+166050;cheese-and-dairy;Cheese, hard cheese, pecorino, sheep milk;1.0;0.28800000000000003;0.32;0.002;0.9;0.8;18.2
+166060;cheese-and-dairy;Cheese, hard cheese, roman pecorino, sheep milk;1.0;0.26;0.331;0.018000000000000002;0.9;0.8;18.2
+166070;cheese-and-dairy;Cheese, hard cheese, sicilian pecorino, sheep milk;1.0;0.289;0.336;0.024;0.9;0.8;18.2
+006820;vegetables-and-greens;Pepper, black, grains;1.0;0.114;0.033;0.49;0.6;0.5;2.5
+006830;vegetables-and-greens;Hot Chili Peppers, fresh;0.89;0.018000000000000002;0.005;0.038;0.8;0.7;2.5
+005606;vegetables-and-greens;Peppers, yellow, red and green, fresh, pan-fried without fat and salt;1.0;0.052000000000000005;0.015;0.243;0.8;0.7;2.5
+005600;vegetables-and-greens;Peppers, yellow, red and green, fresh, crudi;0.82;0.009000000000000001;0.003;0.042;0.8;0.7;2.5
+005624;vegetables-and-greens;Peppers, yellow, cooked by microwave;1.0;0.011000000000000001;0.002;0.081;0.8;0.7;2.5
+005620;vegetables-and-greens;Peppers, yellow, raw;0.83;0.009000000000000001;0.002;0.068;0.8;0.7;2.5
+005610;vegetables-and-greens;Peppers, red and yellow, raw;0.81;0.009000000000000001;0.003;0.067;0.8;0.7;2.5
+005634;vegetables-and-greens;Peppers, red, cooked by microwave;1.0;0.011000000000000001;0.004;0.079;0.8;0.7;2.5
+005630;vegetables-and-greens;Peppers, red, raw;0.82;0.009000000000000001;0.003;0.065;0.8;0.7;2.5
+005640;vegetables-and-greens;Peppers, green, raw;0.81;0.006999999999999999;0.002;0.06;0.8;0.7;2.5
+007270;fruit;Pears, candied;1.0;0.01;0.004;0.7390000000000001;0.45;0.5;2.5
+007261;fruit;Pears, fresh, Abate Fetel;0.89;0.002;0.003;0.127;0.9;0.8;2.5
+007262;fruit;Pears, fresh, Coscia;0.93;0.003;0.001;0.086;0.9;0.8;2.5
+007263;fruit;Pears, fresh, Kaiser;0.91;0.003;0.005;0.092;0.9;0.8;2.5
+007264;fruit;Pears, fresh, Max-red Barlett;0.9;0.003;0.004;0.1;0.9;0.8;2.5
+007260;fruit;Pears, fresh, peel removed;0.84;0.003;0.001;0.08800000000000001;0.9;0.8;2.5
+007265;fruit;Pears, fresh, William;0.9;0.003;0.005;0.102;0.9;0.8;2.5
+122100;fish-products;Catfish, raw;0.6;0.155;0.033;0.002;0.55;0.5;12.0
+007300;fruit;Peaches, dried;1.0;0.048;0.009000000000000001;0.88;0.8;0.7;3.25
+007290;fruit;Peaches, fresh, with peel;0.95;0.006999999999999999;0.0;0.057999999999999996;0.9;0.9;2.5
+007280;fruit;Peaches, fresh, peel removed;0.91;0.008;0.001;0.061;0.9;0.9;2.5
+007310;fruit;Peaches, canned in syrup;1.0;0.005;0.0;0.14;0.6;0.5;2.5
+007320;fruit;Peaches, dried;1.0;0.031;0.006999999999999999;0.6829999999999999;0.8;0.7;3.25
+007330;fruit;Nectarines, fresh;0.9;0.013999999999999999;0.001;0.07;0.9;0.9;2.5
+PC0008;italian-recipes;Pesto sauce;1.0;0.11;0.218;0.018000000000000002;0.85;0.8;10.4
+108520;fresh-meat;Pigeon Young, raw;0.9;0.221;0.055;0.0;0.6;0.5;12.0
+008590;nuts-and-oilseeds;Pine Nuts;0.29;0.319;0.503;0.04;0.6;0.5;14.0
+004700;legumes;Green peas, fresh, raw;0.31;0.055;0.006;0.065;0.9;0.9;3.0
+004706;legumes;Green peans, fresh, baked in pan, no salt, no fat added;1.0;0.09699999999999999;0.01;0.115;0.9;0.9;3.0
+004720;legumes;Green peas, canned, drained;1.0;0.053;0.006;0.111;0.85;0.7;3.0
+004710;legumes;Green peas, dried;1.0;0.217;0.02;0.48200000000000004;0.85;0.7;3.0
+004730;legumes;Green peas, frozen;1.0;0.054000000000000006;0.003;0.065;0.85;0.7;3.0
+008600;nuts-and-oilseeds;Pistachios;0.5;0.18100000000000002;0.561;0.081;0.5;0.4;14.0
+008605;nuts-and-oilseeds;Pistachios of Bronte, PDO;0.5;0.243;0.489;0.073;0.5;0.4;18.2
+000700;cereals-and-derivatives;Pizza, white;1.0;0.079;0.059000000000000004;0.579;0.7;0.6;2.0
+000710;cereals-and-derivatives;Pizza, with tomato;1.0;0.076;0.066;0.40700000000000003;0.7;0.6;2.0
+000720;cereals-and-derivatives;Pizza, with tomato and mozzarella;1.0;0.121;0.076;0.355;0.7;0.6;2.0
+PC0001;italian-recipes;Pizza Napoletana Margherita;1.0;0.107;0.09300000000000001;0.27399999999999997;0.7;0.6;10.4
+PC0028;italian-recipes;Polenta with ragù sauce;1.0;0.046;0.053;0.124;0.85;0.7;10.4
+PC0027;italian-recipes;Polenta with tomato sauce;1.0;0.01;0.015;0.142;0.85;0.7;10.4
+000076;cereals-and-derivatives;Polenta, cooked;1.0;0.009000000000000001;0.0004;0.17800000000000002;0.85;0.7;2.0
+000075;cereals-and-derivatives;Polenta, raw;1.0;0.08;0.006999999999999999;0.727;0.85;0.7;2.0
+PE0010;ethnic-foods;Chicken with pineapple;1.0;0.115;0.066;0.055;0.4;0.2;10.4
+PE0011;ethnic-foods;Almonds chicken;1.0;0.165;0.11900000000000001;0.024;0.5;0.4;10.4
+106273;fresh-meat;Chicken, wing, with skin, baked in oven, no salt, no fat added, dripped;0.6;0.317;0.174;0.0;0.7;0.6;12.0
+106270;fresh-meat;Chicken, wing, with skin, raw;0.63;0.16699999999999998;0.14300000000000002;0.0;0.7;0.6;12.0
+106403;fresh-meat;Chicken, drumstick, with skin, baked in oven, no salt, no fat added, dripped;0.62;0.312;0.085;0.0;0.7;0.6;12.0
+106400;fresh-meat;Chicken, drumstick, with skin, raw;0.67;0.184;0.057;0.0;0.7;0.6;12.0
+106413;fresh-meat;Chicken, drumstick, no skin, baked in oven, no salt, no fat added, dripped;0.64;0.299;0.062;0.0;0.7;0.6;12.0
+106410;fresh-meat;Chicken, drumstick, no skin, raw;0.66;0.185;0.037000000000000005;0.0;0.7;0.6;12.0
+106203;fresh-meat;Chicken, whole, with skin, baked in oven, no salt, no fat added, dripped;0.73;0.271;0.102;0.0;0.7;0.6;12.0
+106251;fresh-meat;Chicken, whole, with skin, roasted (goods store);0.74;0.28300000000000003;0.147;0.0;0.7;0.6;12.0
+106200;fresh-meat;Chicken, whole, with skin, raw;0.77;0.19;0.106;0.0;0.7;0.6;12.0
+106213;fresh-meat;Chicken, whole, no skin, baked in oven, no salt, no fat added, dripped;0.63;0.27899999999999997;0.054000000000000006;0.0;0.7;0.6;12.0
+106261;fresh-meat;Chicken, whole, no skin, roasted (goods store);0.59;0.289;0.1;0.0;0.7;0.6;12.0
+106210;fresh-meat;Chicken, whole, no skin, raw;0.62;0.19399999999999998;0.036000000000000004;0.0;0.7;0.6;12.0
+106506;fresh-meat;Chicken, breast, cooked in pan, no salt, no fat added;0.98;0.302;0.009000000000000001;0.0;0.8;0.7;12.0
+106500;fresh-meat;Chicken, breast, raw;0.98;0.233;0.008;0.0;0.8;0.7;12.0
+106603;fresh-meat;Chicken, leg quarter, with skin, baked in oven, no salt, no fat added, dripped;0.83;0.267;0.125;0.0;0.7;0.6;12.0
+106600;fresh-meat;Chicken, leg quarter, with skin, raw;0.86;0.174;0.14;0.0;0.7;0.6;12.0
+106613;fresh-meat;Chicken, leg quarter, no skin, baked in oven, no salt, no fat added, dripped;0.81;0.28300000000000003;0.083;0.0;0.7;0.6;12.0
+106610;fresh-meat;Chicken, leg quarter, no skin, raw;0.83;0.187;0.063;0.0;0.7;0.6;12.0
+115600;offal;Lung, bovine, raw;1.0;0.14;0.021;0.0;0.6;0.5;5.0
+127150;fish-products;Octopus, raw;0.9;0.106;0.01;0.013999999999999999;0.65;0.5;12.0
+PC0041;italian-recipes;Tomatoes stuffed with rice;1.0;0.02;0.027999999999999997;0.145;0.9;0.7;10.4
+006660;vegetables-and-greens;Tomatoes, preserve;1.0;0.039;0.004;0.204;0.9;0.7;2.5
+006600;vegetables-and-greens;Tomatoes, fresh;1.0;0.012;0.002;0.027999999999999997;0.95;0.95;2.5
+006610;vegetables-and-greens;Tomatoes, ripened, fresh;1.0;0.01;0.002;0.035;0.95;0.95;2.5
+006640;vegetables-and-greens;"Tomatoes, type ""Nerina"", ripe, fresh";1.0;0.011000000000000001;0.004;0.027999999999999997;0.95;0.95;2.5
+006630;vegetables-and-greens;"Tomatoes, type ""Nerina"", green, fresh";1.0;0.009000000000000001;0.004;0.027999999999999997;0.95;0.95;2.5
+006670;vegetables-and-greens;Tomatoes, sauce;1.0;0.013000000000000001;0.002;0.03;0.9;0.7;2.5
+006680;vegetables-and-greens;Tomatoes, ripened, canned, pulp and juice;1.0;0.012;0.005;0.03;0.9;0.7;2.5
+006620;vegetables-and-greens;"Tomatoes, type ""San Marzano"", fresh";1.0;0.011000000000000001;0.002;0.03;0.95;0.95;2.5
+006690;vegetables-and-greens;Tomato Juice;1.0;0.008;0.0;0.03;0.9;0.7;2.5
+006650;vegetables-and-greens;Tomatoes, cherry, fresh;1.0;0.011000000000000001;0.004;0.07200000000000001;0.95;0.95;2.5
+008070;fruit;Grapefruit, fresh;0.7;0.006;0.0;0.062;0.6;0.6;2.5
+501200;various-products;Popcorn;1.0;0.12;0.042;0.779;0.8;0.7;4.0
+005655;vegetables-and-greens;Leeks, boiled in distilled water, no salt, drained;1.0;0.021;0.001;0.053;0.85;0.8;2.5
+005650;vegetables-and-greens;Leeks, raw;0.77;0.021;0.001;0.052000000000000005;0.85;0.8;2.5
+006840;vegetables-and-greens;Parsley, fresh;0.8;0.037000000000000005;0.006;0.0;0.95;0.9;2.5
+110400;processed-and-preserved-meat;Baked ham;1.0;0.157;0.076;0.017;0.6;0.5;23.4
+110410;processed-and-preserved-meat;Baked ham, high quality;1.0;0.18;0.11900000000000001;0.008;0.6;0.5;23.4
+110411;processed-and-preserved-meat;Baked ham, high quality, visible fat removed;1.0;0.195;0.05;0.009000000000000001;0.6;0.5;23.4
+110420;processed-and-preserved-meat;Baked ham, selected;1.0;0.175;0.092;0.006;0.6;0.5;23.4
+110421;processed-and-preserved-meat;Baked ham, selected, visible fat removed;1.0;0.19399999999999998;0.04;0.005;0.6;0.5;23.4
+110401;processed-and-preserved-meat;Baked ham, visible fat removed;1.0;0.17;0.035;0.019;0.6;0.5;23.4
+110500;processed-and-preserved-meat;Prosciutto, Modena PDO;1.0;0.256;0.22899999999999998;0.001;0.75;0.7;23.4
+110501;processed-and-preserved-meat;Prosciutto, Modena PDO, visible fat removed;1.0;0.302;0.08900000000000001;0.001;0.75;0.7;23.4
+110505;processed-and-preserved-meat;Prosciutto, mountain;1.0;0.262;0.22;0.0;0.75;0.7;23.4
+110511;processed-and-preserved-meat;Prosciutto, Parma PDO, visible fat removed;1.0;0.29100000000000004;0.064;0.004;0.75;0.7;23.4
+110515;processed-and-preserved-meat;Prosciutto, Pietraroja;1.0;0.262;0.281;0.0;0.75;0.7;23.4
+110520;processed-and-preserved-meat;Prosciutto, San Daniele PDO;1.0;0.257;0.18600000000000003;0.002;0.75;0.7;23.4
+110521;processed-and-preserved-meat;Prosciutto, San Daniele PDO, visible fat removed;1.0;0.29;0.065;0.004;0.75;0.7;23.4
+110510;processed-and-preserved-meat;Prosciutto, Parma PDO;1.0;0.259;0.183;0.003;0.75;0.7;23.4
+110525;processed-and-preserved-meat;Prosciutto, whole, bone removed;1.0;0.26899999999999996;0.129;0.0;0.75;0.7;23.4
+110526;processed-and-preserved-meat;Prosciutto, whole, bone removed, visible fat removed;1.0;0.293;0.046;0.0;0.75;0.7;23.4
+110530;processed-and-preserved-meat;Prosciutto, gambuccio;1.0;0.262;0.22399999999999998;0.0;0.75;0.7;23.4
+110535;processed-and-preserved-meat;Prosciutto, National;1.0;0.278;0.13699999999999998;0.001;0.75;0.7;23.4
+110536;processed-and-preserved-meat;Prosciutto, National, visible fat removed;1.0;0.305;0.051;0.003;0.75;0.7;23.4
+166100;cheese-and-dairy;Cheese, semisoft, provolone;1.0;0.281;0.282;0.02;0.85;0.7;14.0
+007340;fruit;Plums, fresh;0.9;0.005;0.001;0.105;0.9;0.8;2.5
+007350;fruit;Plums, yellow, fresh;0.96;0.005;0.001;0.066;0.9;0.8;2.5
+007360;fruit;Plums, red, fresh;0.87;0.005;0.001;0.105;0.9;0.8;2.5
+007370;fruit;Prunes, dried;0.88;0.022000000000000002;0.005;0.55;0.8;0.7;3.25
+108530;fresh-meat;Quail, raw;0.67;0.25;0.068;0.0;0.6;0.5;12.0
+000097;cereals-and-derivatives;Quinoa, boiled in water, no salt, drained;1.0;0.048;0.025;0.243;0.8;0.6;2.0
+f;cereals-and-derivatives;Quinoa, raw;1.0;0.154;0.081;0.578;0.8;0.6;2.0
+005441;vegetables-and-greens;Italian Chicory, radicchio from Treviso, red, precocius PGI, fresh;0.95;0.016;0.001;0.01;0.95;0.9;2.5
+005442;vegetables-and-greens;Italian Chicory, radicchio from Treviso, red, tardive PGI, fresh;0.75;0.015;0.001;0.013999999999999999;0.75;0.5;2.5
+005443;vegetables-and-greens;Italian Chicory, radicchio from Castelfranco, variegated PGI, fresh;0.95;0.013000000000000001;0.001;0.013999999999999999;0.95;0.9;2.5
+005440;vegetables-and-greens;Italian Chicory, radicchio, red, fresh;0.72;0.013999999999999999;0.001;0.016;0.72;0.7;2.5
+005450;vegetables-and-greens;Italian Chicory, radicchio, green, fresh;0.95;0.019;0.005;0.005;0.95;0.8;2.5
+PC0007;italian-recipes;Ragù sauce;1.0;0.12;0.154;0.019;0.7;0.5;10.4
+109510;fresh-meat;Frog, raw;1.0;0.155;0.002;0.0;0.7;0.5;12.0
+005665;vegetables-and-greens;Turnips, boiled in distilled water, no salt, drained;1.0;0.011000000000000001;0.0;0.043;0.9;0.8;2.5
+005660;vegetables-and-greens;Turnips, raw;0.69;0.01;0.0;0.04;0.8;0.7;2.5
+005670;vegetables-and-greens;Radish, fresh;0.99;0.008;0.001;0.018000000000000002;0.9;0.8;2.5
+PC0025;italian-recipes;Ravioli with butter and sage;1.0;0.065;0.129;0.247;0.7;0.5;10.4
+PC0026;italian-recipes;Ravioli with tomato sauce;1.0;0.048;0.051;0.17600000000000002;0.7;0.5;10.4
+PE0008;ethnic-foods;Steamed Chinese ravioli;1.0;0.07200000000000001;0.175;0.214;0.5;0.4;10.4
+000876;cereals-and-derivatives;Ravioli, pasta stuffed with spinach and ricotta, cooked;1.0;0.07200000000000001;0.046;0.275;0.7;0.5;2.0
+000875;cereals-and-derivatives;Ravioli, pasta stuffed with spinach and ricotta, fresh;1.0;0.106;0.073;0.40700000000000003;0.7;0.5;2.0
+122200;fish-products;Thornback Ray, raw;0.32;0.142;0.009000000000000001;0.006999999999999999;0.6;0.5;12.0
+115710;offal;Kidney, bovine, raw;1.0;0.184;0.046;0.008;0.7;0.5;5.0
+007770;fruit;Currant, fresh;0.98;0.009000000000000001;0.0;0.09699999999999999;0.9;0.8;2.5
+166800;cheese-and-dairy;Whey cheese, ricotta, buffalo milk;1.0;0.105;0.17300000000000001;0.037000000000000005;0.8;0.7;14.0
+166810;cheese-and-dairy;Whey cheese, ricotta, sheep milk;1.0;0.095;0.115;0.042;0.8;0.7;14.0
+166820;cheese-and-dairy;Whey cheese, ricotta, cow milk;1.0;0.08800000000000001;0.109;0.035;0.8;0.7;14.0
+PC0020;italian-recipes;Rice with ragu;1.0;0.067;0.07400000000000001;0.136;0.7;0.5;10.4
+PC0019;italian-recipes;Rice boiled with tomato;1.0;0.017;0.022000000000000002;0.165;0.7;0.5;10.4
+000135;cereals-and-derivatives;Basmati rice, boiled in water, no salt, drained;1.0;0.03;0.006;0.252;0.5;0.4;2.0
+000130;cereals-and-derivatives;Basmati rice, raw;1.0;0.09;0.019;0.8290000000000001;0.5;0.4;2.0
+PC0021;italian-recipes;Rice with butter and parmesan;1.0;0.034;0.052000000000000005;0.221;0.7;0.5;10.4
+PE0001;ethnic-foods;Cantonese rice;1.0;0.055;0.078;0.298;0.5;0.4;10.4
+000145;cereals-and-derivatives;Venere rice, boiled in water, no salt, drained;1.0;0.035;0.003;0.369;0.7;0.5;2.0
+000140;cereals-and-derivatives;Venere rice, raw;1.0;0.078;0.013000000000000001;0.804;0.7;0.5;2.0
+000100;cereals-and-derivatives;Rice polished, raw;1.0;0.067;0.004;0.804;0.7;0.5;2.0
+000105;cereals-and-derivatives;Rice polished, boiled in distilled water, no salt, drained;1.0;0.02;0.001;0.242;0.7;0.5;2.0
+000110;cereals-and-derivatives;Rice, whole, raw;1.0;0.075;0.019;0.774;0.7;0.5;2.0
+000115;cereals-and-derivatives;Rice, whole, boiled in distilled water, no salt, drained;1.0;0.025;0.006;0.255;0.7;0.5;2.0
+000120;cereals-and-derivatives;Parboiled rice, raw;1.0;0.07400000000000001;0.003;0.813;0.7;0.5;2.0
+000125;cereals-and-derivatives;Parboiled rice, boiled in distilled water, no salt, drained;1.0;0.021;0.001;0.233;0.7;0.5;2.0
+003050;cereals-and-derivatives;Puffed Rice, breakfast cereal;1.0;0.06;0.01;0.851;0.6;0.5;2.0
+PC0009;italian-recipes;Risotto with parmesan;1.0;0.040999999999999995;0.075;0.254;0.7;0.5;10.4
+166850;cheese-and-dairy;Cheese, soft, robiola;1.0;0.2;0.27699999999999997;0.023;0.8;0.7;14.0
+122300;fish-products;Turbot, raw;0.55;0.163;0.013000000000000001;0.012;0.7;0.5;12.0
+006850;vegetables-and-greens;Rosemary, fresh;1.0;0.013999999999999999;0.044000000000000004;0.135;0.9;0.8;2.5
+005460;vegetables-and-greens;Rocket, leaves, fresh;1.0;0.026000000000000002;0.003;0.039;0.9;0.8;2.5
+110600;processed-and-preserved-meat;Salami, Brianza type;1.0;0.265;0.305;0.01;0.7;0.5;23.4
+110620;processed-and-preserved-meat;Salami, Fabriano type;1.0;0.265;0.34299999999999997;0.015;0.7;0.5;23.4
+110630;processed-and-preserved-meat;Salami, Felino type;1.0;0.305;0.27899999999999997;0.005;0.7;0.5;23.4
+110640;processed-and-preserved-meat;Salami, Milano type;1.0;0.254;0.31;0.011000000000000001;0.7;0.5;23.4
+110650;processed-and-preserved-meat;Salami, Napoli type;1.0;0.27399999999999997;0.297;0.002;0.7;0.5;23.4
+110660;processed-and-preserved-meat;Salami, Italian average;1.0;0.273;0.285;0.011000000000000001;0.7;0.5;23.4
+110670;processed-and-preserved-meat;Salami, Ungherese type;1.0;0.23600000000000002;0.35700000000000004;0.011000000000000001;0.7;0.5;23.4
+110610;processed-and-preserved-meat;Salami, Cacciatore type;1.0;0.284;0.327;0.006999999999999999;0.7;0.5;23.4
+122400;fish-products;Salmon, raw;0.65;0.184;0.12;0.01;0.6;0.5;12.0
+122410;fish-products;Salmon, smocked;1.0;0.254;0.045;0.012;0.6;0.5;15.6
+122430;fish-products;Salmon, in brine;0.98;0.21100000000000002;0.115;0.01;0.6;0.5;15.6
+122500;fish-products;Salema, raw;1.0;0.18;0.027000000000000003;0.02;0.7;0.5;12.0
+110730;processed-and-preserved-meat;Sausage, Calabria, cured meat;1.0;0.336;0.252;0.013000000000000001;0.7;0.5;23.4
+110700;processed-and-preserved-meat;Sausage, liver;1.0;0.124;0.41200000000000003;0.009000000000000001;0.7;0.5;23.4
+110710;processed-and-preserved-meat;Sausage, swine, fresh, raw;1.0;0.154;0.267;0.006;0.7;0.5;23.4
+110716;processed-and-preserved-meat;Sausage, swine, fresh, cooked in pan, no salt, no fat added;1.0;0.222;0.261;0.0;0.7;0.5;23.4
+110720;processed-and-preserved-meat;Sausage, swine, dried;1.0;0.22;0.473;0.0;0.7;0.5;23.4
+006860;vegetables-and-greens;Sage, leaves, fresh;1.0;0.039;0.046;0.156;0.9;0.8;2.5
+122600;fish-products;Seabream, raw;1.0;0.207;0.012;0.01;0.7;0.5;12.0
+122700;fish-products;Round Sardinella, raw;0.7;0.20800000000000002;0.045;0.015;0.7;0.5;12.0
+122800;fish-products;Pilchard, raw;0.75;0.203;0.154;0.015;0.7;0.5;12.0
+122806;fish-products;Pilchard, fried;0.75;0.32299999999999995;0.212;0.01;0.7;0.5;15.6
+PE0005;ethnic-foods;Romanian sarmale;1.0;0.057;0.052000000000000005;0.079;0.5;0.4;10.4
+215000;sweets;Ladyfingers, packed;1.0;0.11900000000000001;0.092;0.696;0.7;0.5;6.0
+PC0013;italian-recipes;Turkey escalope with lemon;1.0;0.205;0.049;0.115;0.7;0.5;10.4
+167200;cheese-and-dairy;Cheese, semisoft, scamorza;1.0;0.25;0.256;0.01;0.8;0.7;14.0
+005465;vegetables-and-greens;Endive, fresh;0.8;0.011000000000000001;0.003;0.023;0.9;0.8;2.5
+005466;vegetables-and-greens;Endive, packaged, ready-to-use;1.0;0.009000000000000001;0.002;0.022000000000000002;0.8;0.7;2.5
+122900;fish-products;Scorpionfish, raw;1.0;0.19;0.004;0.006;0.7;0.5;12.0
+005690;vegetables-and-greens;Celeriac, raw;0.72;0.019;0.001;0.038;0.8;0.7;2.5
+005684;vegetables-and-greens;Celery, cooked by microwave, no salt;1.0;0.024;0.002;0.024;0.8;0.7;2.5
+005680;vegetables-and-greens;Celery, raw;0.8;0.023;0.002;0.024;0.8;0.7;2.5
+192010;oils-and-fats;Tallow;1.0;0.008;0.965;0.0;0.5;0.4;6.0
+000310;cereals-and-derivatives;Durum wheat flour (semola);1.0;0.115;0.005;0.769;0.9;0.8;2.0
+127160;fish-products;Cuttlefish, raw;0.5;0.14;0.015;0.006999999999999999;0.6;0.5;12.0
+123000;fish-products;Mackerel, raw;0.8;0.17;0.111;0.005;0.7;0.5;12.0
+123010;fish-products;Mackerel, in brine;1.0;0.193;0.111;0.0;0.7;0.5;15.6
+123100;fish-products;Sole, raw;0.48;0.16899999999999998;0.013999999999999999;0.008;0.7;0.5;12.0
+PC0031;italian-recipes;Sole, cooked with white wine;1.0;0.19;0.10099999999999999;0.055999999999999994;0.7;0.5;10.4
+123110;fish-products;Sole, deep frozen;0.48;0.17300000000000001;0.013000000000000001;0.001;0.7;0.5;12.0
+509010;various-products;Soy, milk;1.0;0.028999999999999998;0.019;0.008;0.7;0.5;4.0
+004910;legumes;Soy, protein isolate;1.0;0.865;0.006999999999999999;0.045;0.7;0.5;3.0
+509020;various-products;Soy, sauce;1.0;0.087;0.0;0.083;0.7;0.5;4.0
+004900;legumes;Soy, dried;1.0;0.369;0.191;0.23199999999999998;0.7;0.5;3.0
+509030;various-products;Soy, yoghurt;1.0;0.05;0.042;0.039;0.7;0.5;4.0
+110740;processed-and-preserved-meat;Soppressata, Calabria, cured meat;1.0;0.342;0.263;0.009000000000000001;0.7;0.5;23.4
+PE0009;ethnic-foods;Fried noodles;1.0;0.046;0.10400000000000001;0.136;0.5;0.4;10.4
+110800;processed-and-preserved-meat;Speck;1.0;0.307;0.191;0.012;0.7;0.5;23.4
+PC0012;italian-recipes;Stew beef;1.0;0.18100000000000002;0.086;0.03;0.7;0.5;10.4
+123200;fish-products;Sea Bass, raw;0.54;0.165;0.015;0.006;0.7;0.5;12.0
+PC0030;italian-recipes;Sea bass, baked in foil;1.0;0.162;0.064;0.009000000000000001;0.7;0.5;10.4
+123220;fish-products;Sea Bass, fish breeding, fillets;1.0;0.213;0.068;0.008;0.7;0.5;12.0
+005704;vegetables-and-greens;Spinach, fresh, cooked by microwave, no salt;1.0;0.034;0.006999999999999999;0.03;0.9;0.8;2.5
+005705;vegetables-and-greens;Spinach, fresh, boiled in distelled water, no salt, drained;1.0;0.04;0.008;0.035;0.9;0.8;2.5
+005700;vegetables-and-greens;Spinach, fresh, raw;0.83;0.034;0.006999999999999999;0.028999999999999998;0.9;0.8;2.5
+005710;vegetables-and-greens;Spinach, leaves, frozen;1.0;0.027999999999999997;0.0;0.0;0.7;0.5;2.5
+123300;fish-products;Sturgeon, raw;1.0;0.192;0.076;0.0;0.7;0.5;12.0
+167250;cheese-and-dairy;Cheese, soft cheese, stracchino;1.0;0.185;0.251;0.0;0.8;0.7;14.0
+193010;oils-and-fats;Lard, swine fat only;1.0;0.003;0.99;0.0;0.5;0.4;6.0
+108901;fresh-meat;Ostrich, lean only, baked in oven, no salt, no fat added, dripped;1.0;0.222;0.013999999999999999;0.0;0.7;0.5;12.0
+108900;fresh-meat;Ostrich, lean only, raw;1.0;0.209;0.009000000000000001;0.0;0.7;0.5;12.0
+008930;fruit;Fruit Juice (apricot and peach);1.0;0.003;0.001;0.145;0.7;0.5;2.5
+PC0006;italian-recipes;Tomato sauce;1.0;0.013000000000000001;0.057;0.036000000000000004;0.9;0.8;10.4
+124100;fish-products;Scad, raw;0.55;0.183;0.03;0.01;0.7;0.5;12.0
+PE0017;ethnic-foods;Tabbouleh;1.0;0.03;0.024;0.14;0.5;0.4;10.4
+106700;fresh-meat;Turkey, whole, with skin, raw;0.7;0.182;0.069;0.0;0.7;0.5;12.0
+106719;fresh-meat;Turkey, whole, no skin, baked in oven, no salt, no fat added, dripped;0.59;0.233;0.026000000000000002;0.0;0.7;0.5;12.0
+106710;fresh-meat;Turkey, whole, no skin, raw;0.58;0.21899999999999997;0.024;0.0;0.7;0.5;12.0
+106800;fresh-meat;Turkey, thigh, with skin, raw;0.74;0.18100000000000002;0.065;0.0;0.7;0.5;12.0
+106856;fresh-meat;Turkey, breast, cooked in pan, no salt, no fat added;1.0;0.29600000000000004;0.013999999999999999;0.0;0.8;0.7;15.6
+106850;fresh-meat;Turkey, breast, raw;1.0;0.24;0.012;0.0;0.8;0.7;12.0
+106903;fresh-meat;Turkey, leg, with skin, baked in oven, no salt, no fat added, dripped;0.71;0.267;0.09300000000000001;0.0;0.7;0.5;12.0
+106900;fresh-meat;Turkey, leg, with skin, raw;0.74;0.179;0.06;0.0;0.7;0.5;12.0
+106913;fresh-meat;Turkey, leg, no skin, baked in oven, no salt, no fat added, dripped;0.72;0.28;0.087;0.0;0.7;0.5;12.0
+106910;fresh-meat;Turkey, leg, no skin, raw;0.73;0.18;0.046;0.0;0.7;0.5;12.0
+106963;fresh-meat;Turkey, leg quarter, no skin, baked in gas oven, no salt, no fat added, dripped;0.84;0.302;0.068;0.0;0.8;0.7;15.6
+106960;fresh-meat;Turkey, leg quarter, no skin, raw;0.86;0.185;0.051;0.0;0.8;0.7;12.0
+167600;cheese-and-dairy;Cheese, soft, taleggio;1.0;0.19;0.262;0.009000000000000001;0.8;0.7;14.0
+005470;vegetables-and-greens;Dandelion Greens, fresh;1.0;0.031;0.011000000000000001;0.037000000000000005;0.9;0.8;2.5
+006200;vegetables-and-greens;Truffle, black;0.79;0.06;0.005;0.006999999999999999;0.7;0.5;2.5
+508100;various-products;Tea, leaves;1.0;0.196;0.02;0.03;0.5;0.4;4.0
+123400;fish-products;Tench, raw;0.55;0.179;0.005;0.009000000000000001;0.7;0.5;12.0
+123500;fish-products;Tuna, raw;0.9;0.215;0.081;0.001;0.7;0.5;12.0
+123550;fish-products;Brine Tuna, dripped;1.0;0.251;0.003;0.0;0.7;0.5;15.6
+123610;fish-products;Tuna, in oil, dripped;1.0;0.252;0.10099999999999999;0.0;0.7;0.5;15.6
+006596;vegetables-and-greens;Jerusalem Artichoke, boiled in distilled water, no salt;1.0;0.016;0.001;0.106;0.9;0.8;2.5
+202800;sweets;Nougat With Almond;1.0;0.10800000000000001;0.268;0.52;0.6;0.5;6.0
+PC0047;italian-recipes;Apple pie;1.0;0.05;0.115;0.46299999999999997;0.8;0.7;10.4
+209010;sweets;"Cake "" Margherita"", packed";1.0;0.08900000000000001;0.10400000000000001;0.634;0.6;0.5;6.0
+000880;cereals-and-derivatives;Tortellini, fresh;1.0;0.122;0.071;0.499;0.7;0.5;2.0
+000885;cereals-and-derivatives;Tortellini, fresh, cooked;1.0;0.064;0.037000000000000005;0.26;0.7;0.5;2.0
+000890;cereals-and-derivatives;Tortellini, dried;1.0;0.157;0.10800000000000001;0.5760000000000001;0.7;0.5;2.0
+123900;fish-products;Mullet, raw;0.6;0.158;0.062;0.011000000000000001;0.7;0.5;12.0
+115800;offal;Tripe Bovine, raw;1.0;0.158;0.05;0.0;0.7;0.5;5.0
+124000;fish-products;Trout, raw;0.55;0.147;0.03;0.0;0.7;0.5;12.0
+PC0014;italian-recipes;Trout baked;1.0;0.20800000000000002;0.08900000000000001;0.057999999999999996;0.7;0.5;10.4
+124050;fish-products;Rainbow Trout, fish breeding, fillets raw;1.0;0.203;0.040999999999999995;0.0;0.7;0.5;12.0
+124010;fish-products;Trout, deep frozen;0.55;0.17800000000000002;0.023;0.0;0.7;0.5;12.0
+124013;fish-products;Trout, deep frozen, baked in oven, no salt, no fat added, dripped;0.55;0.204;0.026000000000000002;0.0;0.7;0.5;12.0
+124014;fish-products;Trout, deep frozen, cooked by microwave;0.55;0.267;0.032;0.0;0.7;0.5;12.0
+180010;eggs;Duck Egg, whole;0.88;0.122;0.154;0.006999999999999999;0.8;0.7;3.0
+182010;eggs;Chicken Egg, white;1.0;0.107;0.0;0.0;0.9;0.8;3.0
+181100;eggs;Chicken Egg, whole;0.91;0.124;0.087;0.0;0.9;0.8;3.0
+181500;eggs;Chicken Egg, whole, frozen;1.0;0.124;0.087;0.0;0.9;0.8;3.0
+181117;eggs;Chicken Egg, whole, fried, omelette or scrumbled;1.0;0.146;0.102;0.0;0.9;0.8;3.0
+181105;eggs;Chicken Egg, whole, boiled, a la coque or hard-boiled;1.0;0.124;0.087;0.0;0.9;0.8;3.0
+181600;eggs;Chicken Egg, whole, powder;1.0;0.519;0.364;0.004;0.7;0.5;3.0
+183010;eggs;Chicken Egg, yolk;1.0;0.158;0.29100000000000004;0.0;0.7;0.5;3.0
+183800;eggs;Chicken Egg, yolk, frozen;1.0;0.158;0.29100000000000004;0.0;0.7;0.5;3.0
+183015;eggs;Chicken Egg, yolk, boiled without shell;1.0;0.158;0.29100000000000004;0.0;0.7;0.5;3.0
+183900;eggs;Chicken Egg, yolk, powder;1.0;0.312;0.575;0.0002;0.7;0.5;3.0
+185010;eggs;Goose Egg, whole;0.87;0.138;0.14400000000000002;0.01;0.7;0.5;3.0
+189010;eggs;Turkey Egg, whole;0.87;0.128;0.102;0.01;0.7;0.5;3.0
+007390;fruit;Grapes, white, fresh;0.95;0.004;0.001;0.215;0.7;0.5;2.5
+007380;fruit;Grapes, fresh;0.94;0.005;0.001;0.156;0.7;0.5;2.5
+007400;fruit;Grapes, black, fresh;0.95;0.005;0.001;0.126;0.7;0.5;2.5
+007410;fruit;Raisin;1.0;0.019;0.006;0.72;0.6;0.5;3.25
+007420;fruit;Grape, juice, canned;1.0;0.003;0.0;0.17300000000000001;0.6;0.5;2.5
+006990;vegetables-and-greens;Mixed Vegetables, (mais, peas, carrots, beans), frozen;1.0;0.033;0.003;0.13699999999999998;0.7;0.5;2.5
+101521;fresh-meat;Calf, fillet, roasted in pan, no fat added, no salt added;1.0;0.244;0.032;0.0;0.7;0.5;12.0
+101520;fresh-meat;Calf, fillet, raw;1.0;0.207;0.027000000000000003;0.0;0.7;0.5;12.0
+127170;fish-products;Clam, raw;0.25;0.098;0.012;0.039;0.6;0.5;12.0
+214500;sweets;Snack wafer coated by chocolate, packed;1.0;0.08199999999999999;0.266;0.603;0.5;0.4;6.0
+110906;processed-and-preserved-meat;Wurstel, pure swine, cooked in pan, no fat added, no salt added;1.0;0.146;0.222;0.003;0.6;0.5;23.4
+110900;processed-and-preserved-meat;Wurstel, pure swine, raw;1.0;0.132;0.21100000000000002;0.019;0.6;0.5;23.4
+158000;milk-and-yogurt;Yogurt, goat milk;1.0;0.036000000000000004;0.028999999999999998;0.051;0.8;0.7;2.0
+150500;milk-and-yogurt;Yogurt, whole milk, with fruit;1.0;0.034;0.027999999999999997;0.105;0.8;0.7;2.0
+151000;milk-and-yogurt;Yogurt, semiskimmed milk;1.0;0.034;0.017;0.038;0.8;0.7;2.0
+152000;milk-and-yogurt;Yogurt, skimmed milk;1.0;0.033;0.009000000000000001;0.04;0.8;0.7;2.0
+150030;milk-and-yogurt;Yogurt, greek, 0% fat;1.0;0.09;0.0;0.04;0.8;0.7;2.0
+150035;milk-and-yogurt;Yogurt, greek, 0% fat, flavored;1.0;0.075;0.0;0.15;0.8;0.7;2.0
+150020;milk-and-yogurt;Yogurt, whole milk, greek;1.0;0.064;0.091;0.02;0.8;0.7;2.0
+150025;milk-and-yogurt;Yogurt, low-fat milk, greek, with fruit;1.0;0.06;0.009000000000000001;0.11;0.8;0.7;2.0
+150015;milk-and-yogurt;Yogurt, 0% fat;1.0;0.047;0.001;0.06;0.8;0.7;2.0
+150010;milk-and-yogurt;Yogurt, whole milk;1.0;0.038;0.039;0.043;0.8;0.7;2.0
+110950;processed-and-preserved-meat;Zampone, precooked packed, raw;1.0;0.191;0.316;0.0;0.5;0.4;23.4
+110955;processed-and-preserved-meat;Zampone Modena PGI, precooked packed, boiled;1.0;0.237;0.175;0.026000000000000002;0.5;0.4;23.4
+005720;vegetables-and-greens;Squash, fresh;0.81;0.011000000000000001;0.001;0.035;0.9;0.8;2.5
+201500;sweets;Sugar, white;1.0;0.0;0.0;1.045;0.5;0.4;6.0
+005741;vegetables-and-greens;Zucchini Squash (Ligth Green), steaming, no salt;1.0;0.02;0.0;0.025;0.9;0.8;2.5
+005742;vegetables-and-greens;Zucchini Squash (Ligth Green), in pain grilled, no salt;1.0;0.0;0.002;0.057;0.9;0.8;2.5
+PC0051;italian-recipes;Grilled zucchini;1.0;0.043;0.038;0.055;0.9;0.8;10.4
+005740;vegetables-and-greens;Zucchini Squash (Ligth Green), raw;0.86;0.019;0.001;0.017;0.9;0.8;2.5
+005744;vegetables-and-greens;Zucchini Squash (Ligth Green), cooked by microwave, no salt;1.0;0.02;0.001;0.03;0.9;0.8;2.5
+005735;vegetables-and-greens;Zucchini Squash, boiled in distilled water, no salt, drained;1.0;0.032;0.002;0.034;0.9;0.8;2.5
+005730;vegetables-and-greens;Zucchini Squash, raw;0.88;0.015;0.001;0.017;0.9;0.8;2.5
+005754;vegetables-and-greens;Zucchini Squash (Dark Green), cooked by microwave, no salt;1.0;0.018000000000000002;0.0;0.035;0.9;0.8;2.5
+005751;vegetables-and-greens;Zucchini Squash (Ligth Green), steaming, no salt;1.0;0.016;0.001;0.027000000000000003;0.9;0.8;2.5
+005752;vegetables-and-greens;Zucchini Squash (Ligth Green), in pain grilled, no salt;1.0;0.027000000000000003;0.001;0.055999999999999994;0.9;0.8;2.5
+005750;vegetables-and-greens;Zucchini Squash (Dark Green), raw;0.89;0.013999999999999999;0.001;0.021;0.9;0.8;2.5
