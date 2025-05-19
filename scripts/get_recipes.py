@@ -1,7 +1,7 @@
 def foods_by_category(foods_df, category):
   return foods_df[foods_df["category"] == category]["id"].tolist()
 
-def get_recipes(foods_df):
+def get_recipes_first(foods_df):
   return {
     "first-1": {  # Whole wheat pasta with lentils and vegetables
       "ingredients": {
@@ -22,7 +22,8 @@ def get_recipes(foods_df):
           "quantity": 0.05,
         },
       },
-      "macros": {"c": 0.55, "p": 0.25, "f": 0.20}
+      "sizes": [100, 200, 300],
+      "macros": {"c": 0.55, "p": 0.25, "f": 0.20},
     },
 
     "first-2": {  # Rice with peas and grated cheese
@@ -40,6 +41,7 @@ def get_recipes(foods_df):
           "quantity": 0.15,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.60, "p": 0.20, "f": 0.20}
     },
 
@@ -58,6 +60,7 @@ def get_recipes(foods_df):
           "quantity": 0.15,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.50, "p": 0.30, "f": 0.20}
     },
 
@@ -76,9 +79,13 @@ def get_recipes(foods_df):
           "quantity": 0.2,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.55, "p": 0.20, "f": 0.25}
     },
+  }
 
+def get_recipes_second(foods_df):
+  return {
     "second-1": {  # Salmon fillet with a side of vegetables and olive oil
       "ingredients": {
         "i-a": {
@@ -94,6 +101,7 @@ def get_recipes(foods_df):
           "quantity": 0.1,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.15, "p": 0.55, "f": 0.30}
     },
 
@@ -112,6 +120,7 @@ def get_recipes(foods_df):
           "quantity": 0.1,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.20, "p": 0.55, "f": 0.25}
     },
 
@@ -130,6 +139,7 @@ def get_recipes(foods_df):
           "quantity": 0.15,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.20, "p": 0.50, "f": 0.30}
     },
 
@@ -148,9 +158,13 @@ def get_recipes(foods_df):
           "quantity": 0.2,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.15, "p": 0.55, "f": 0.30}
     },
+  }
 
+def get_recipes_dessert(foods_df):
+  return {
     "dessert-1": {  # Fruit salad with nuts
       "ingredients": {
         "i-a": {
@@ -162,6 +176,7 @@ def get_recipes(foods_df):
           "quantity": 0.15,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.65, "p": 0.10, "f": 0.25}
     },
 
@@ -180,6 +195,7 @@ def get_recipes(foods_df):
           "quantity": 0.1,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.45, "p": 0.20, "f": 0.35}
     },
 
@@ -194,6 +210,7 @@ def get_recipes(foods_df):
           "quantity": 0.1,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.60, "p": 0.10, "f": 0.30}
     },
 
@@ -212,6 +229,7 @@ def get_recipes(foods_df):
           "quantity": 0.1,
         },
       },
+      "sizes": [100, 200, 300],
       "macros": {"c": 0.50, "p": 0.25, "f": 0.25}
     },
   }

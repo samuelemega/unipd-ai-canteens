@@ -118,8 +118,3 @@ The context of the application is defined by:
 - **Warehouse**: registry containing the availability of each food
 - **Market**: registry containing the price on the market of each food
 - **History**: registry containing when each food has been used the last time
-
-
-
-
-
