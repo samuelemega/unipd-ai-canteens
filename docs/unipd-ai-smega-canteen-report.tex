@@ -1,0 +1,178 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=1.8cm]{geometry}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\setlength{\columnsep}{1cm}
+\titleformat{\section}{\bfseries\large}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\bfseries}{\thesubsection}{0.5em}{}
+
+\title{AI-driven Sustainable Meal Planning in Institutional Canteens}
+\author{Samuele Mega}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section{Project Idea}
+
+This project introduces an AI-based system to intelligently plan weekly menus in institutional canteens (schools, hospitals, and companies). The primary goal is to balance sustainability, nutritional quality, and user satisfaction by:
+
+\begin{itemize}[leftmargin=*]
+  \item Gathering user preferences (both ranked recipes and portion sizes);
+  \item Selecting recipes that maximize collective satisfaction;
+  \item Choosing ingredients that optimize nutritional balance, environmental impact, and stock usage;
+  \item Following dietary guidelines such as those from WHO and CREA.
+\end{itemize}
+
+Each recipe is defined as a flexible blueprint: categories (e.g. \emph{cereals, legumes, dairy}) with relative proportions, rather than fixed ingredients.
+
+The system is highly modular. Preferences, recipes, warehouse data, and nutritional / eco properties are stored separately, allowing reuse and adaptation to different institutions or dietary rules. This decoupling supports extensibility: for example, it would be simple to plug in additional modules for special diets (gluten-free, vegan, halal, etc.) or policy constraints (budget, calories).
+
+\begin{center}
+\begin{tabular}{@{} l l l @{} }
+\toprule
+\multicolumn{3}{c}{\textbf{Recipe blueprint example}} \\
+\toprule
+\multicolumn{3}{c}{\textbf{Ingredients}} \\
+\midrule
+\textbf{Category} & \textbf{Alternatives} & \textbf{Qty (\%)} \\
+\midrule
+Cereals & Rice, Barley, Spelt & 50 \\
+Legumes & Chickpeas, Lentils & 30 \\
+Dairy & Ricotta, Parmigiano & 15 \\
+Oil & Olive Oil, Avocado Oil & 5 \\
+\midrule
+\multicolumn{3}{c}{\textbf{Macronutrient Distribution Targets}} \\
+\midrule
+\textbf{Nutrient} & \textbf{Target (\%)} & \\
+Carbohydrates & 60 & \\
+Proteins & 20 & \\
+Fats & 20 & \\
+\midrule
+\multicolumn{3}{c}{\textbf{Allowed Portion Sizes}} \\
+\midrule
+\textbf{Size} & \textbf{Weight (g)} & \\
+Small & 300 & \\
+Medium & 400 & \\
+Large & 500 & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These structured constraints are directly encoded in the chromosome and evaluation logic of the genetic algorithm, which guide the optimization process to produce feasible and nutritionally sound meal configurations.
+
+\section{Social Impact}
+
+In Italy, institutional food services waste approximately 30\% of prepared food annually, contributing to more than \euro14 billion in national food waste. This project addresses inefficiencies in demand forecasting, menu design, and inventory management by:
+
+\begin{itemize}[leftmargin=*]
+  \item Aligning menus with what people actually want to eat, reducing uneaten portions;
+  \item Making use of existing stock to minimize unnecessary procurement and reduce spoilage;
+  \item Educating users through diverse meals that reflect seasonal, sustainable choices;
+  \item Providing an open-source, reproducible framework that can be customized and scaled.
+\end{itemize}
+
+This approach promotes responsible consumption and healthy diets, especially for children and vulnerable populations in public facilities. In addition, it could influence public procurement strategies and sustainability certifications.
+
+\section{AI Techniques}
+
+\subsection{Recipe Selection via Ranked Pairs}
+
+Each user submits a ranking on the available recipes. To fairly aggregate preferences, we apply the \textbf{ ranked pairs} method from the voting theory. It is a \textit{Condorcet-consistent} algorithm that selects the widely preferred options without falling into majority cycles. Concretely, the algorithm:
+
+\begin{itemize}
+  \item Computes pairwise victories and their margins from user ballots;
+  \item Sorts the pairs by strength of victory;
+  \item Iteratively "locks in" the strongest pairwise wins, as long as they don't introduce cycles in the preference graph.
+\end{itemize}
+
+We use \texttt{pyrankvote} Python library for this step. The result is a sorted list of recipes that best reflects collective preference, satisfying more users, and reducing the rejection of meals.
+
+\subsection{Ingredient Optimization via Genetic Algorithm}
+
+Once a recipe blueprint is selected (e.g., \emph{cereals + legumes + dairy + oil}), the system fills each ingredient slot using a \textbf{Genetic Algorithm (GA)}. This is a population-based metaheuristic for combinatorial optimization. The GA components are:
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Chromosome}: a full assignment of foods to ingredient categories;
+  \item \textbf{Gene}: a specific food (e.g., \emph{lentils}) and a quantity scaling factor (e.g., \emph{1.05});
+  \item \textbf{Population}: initialized with random valid food combinations from the database;
+  \item \textbf{Fitness function}: evaluates candidates by computing a weighted score from:
+    \begin{itemize}[leftmargin=*]
+      \item Deviation from macronutrient targets (carbs, proteins, fats);
+      \item Eco-score and seasonality of ingredients;
+      \item Availability in the warehouse (including penalties for missing stock);
+      \item Price on the market.
+    \end{itemize}
+  \item \textbf{Operators}:
+    \begin{itemize}[leftmargin=*]
+      \item Crossover: mix ingredients from two parents;
+      \item Mutation: randomly replace or rescale an ingredient.
+    \end{itemize}
+\end{itemize}
+
+The GA runs for a fixed number of generations or until convergence, returning one or more optimized menus. This technique is highly flexible and allows real-world constraints to be seamlessly incorporated.
+
+\subsection{Example Output}
+
+Below is a sample output of the system for one selected recipe (e.g., \textit{Cereals and Legumes}):
+
+\begin{center}
+\begin{tabular}{@{} l l l l l l @{}} 
+\toprule
+\textbf{Food} & \textbf{W (kg)} & \textbf{C} & \textbf{P} & \textbf{F} & \textbf{Cost (€)} \\
+\midrule
+Spelt & 40.0 & 58.0 & 12.0 & 2.0 & 45.0 \\
+Lentils & 24.0 & 20.0 & 9.0 & 1.0 & 30.0 \\
+Ricotta & 12.0 & 3.0 & 6.0 & 9.0 & 22.0 \\
+Olive oil & 4.0 & 0.0 & 0.0 & 100.0 & 10.0 \\
+\midrule
+\textbf{Total} & \textbf{80.0} & \textbf{39.0} & \textbf{13.0} & \textbf{6.75} & \textbf{107.0} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The system generates multiple such combinations. Each is scored by a fitness function that balances macronutrient compliance, ecological impact, seasonality, cost, and stock availability.
+
+\section{Links to AI and Other Courses}
+
+This project integrates multiple concepts from AI and Computer Engineering curricula:
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Artificial Intelligence}: metaheuristics (GA), voting systems, preference aggregation and selection with soft constraints;
+  \item \textbf{Graph Algorithms}: cycle detection in Ranked Pairs (via DFS);
+  \item \textbf{Multi-objective Optimization}: trade-offs between nutrition, ecology, and cost;
+  \item \textbf{Data Engineering}: preprocessing and managing structured food and recipe datasets;
+  \item \textbf{Software Design}: modular architecture, extensibility, reproducibility.
+\end{itemize}
+
+\section{Further Implementations}
+
+This system could be extended in several meaningful directions:
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{User Feedback Loop}: Collect feedback on meals actually consumed and integrate it to improve recipe selection over time.
+  \item \textbf{Dietary Constraints Integration}: Incorporate user-specific constraints such as allergies, intolerances, religious diets, or chronic conditions.
+  \item \textbf{Reinforcement Learning}: Use RL agents to adapt the menu policy based on long-term performance in real deployments.
+  \item \textbf{Web Interface \& API}: Provide a full-stack application where canteen managers can configure parameters and run AI through a browser.
+\end{itemize}
+
+\section*{GitHub Repository}
+Code and documentation: \\ \url{https://github.com/samuelemega/unipd-ai-canteens}
+
+\section*{Usage Instructions}
+To run the project locally, use the following commands:
+
+\begin{itemize}[leftmargin=*]
+  \item \texttt{python3 scripts/random\_preferences.py}
+  \item \texttt{python3 scripts/choose\_recipes.py}
+  \item \texttt{python3 scripts/choose\_ingredients.py}
+\end{itemize}
+
+\end{multicols}
+\end{document}
