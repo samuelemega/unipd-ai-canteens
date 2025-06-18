@@ -26,7 +26,7 @@ PRINT_N = 5
 ###################
 
 foods_df = pd.read_csv("data/foods.csv", sep=";")
-recipes_totals_df = pd.read_csv("data/recipe-totals.csv", sep=";")
+recipes_totals_df = pd.read_csv("data/recipes-totals.csv", sep=";")
 
 foods_repository = get_foods(foods_df)
 warehouse = get_warehouse(foods_df)
@@ -251,19 +251,6 @@ class Recipe:
         "max": np.max(fitness_values),
       })
 
-    # pools = [entry["pool"] for entry in fitness_history]
-    # fitness_mean = [entry["mean"] for entry in fitness_history]
-    # fitness_max = [entry["max"] for entry in fitness_history]
-    #
-    # plt.plot(pools, fitness_mean, label="Mean")
-    # plt.plot(pools, fitness_max, label="Max")
-    # plt.xlabel("Generation")
-    # plt.ylabel("Fitness")
-    # plt.title(f"Fitness for '{self.recipe_name}'")
-    # plt.legend()
-    # plt.grid(True)
-    # plt.savefig(f"data/fitness_{self.recipe_name}.png")
-
     return sorted(
       pool,
       key=lambda gene: self.fitness(gene)
@@ -275,7 +262,7 @@ class Recipe:
 
 empty_df = pd.DataFrame([""], columns=[""])
 
-with pd.ExcelWriter("ricette.xlsx") as writer:
+with pd.ExcelWriter("data/recipes-output.xlsx") as writer:
   for _, row in recipes_totals_df.iterrows():
     recipe = Recipe(row["recipe"], row["total"])
 
@@ -288,4 +275,3 @@ with pd.ExcelWriter("ricette.xlsx") as writer:
       dfs.append(empty_df)
 
     pd.concat(dfs).to_excel(writer, sheet_name=row["recipe"], index=False)
-

@@ -18,25 +18,9 @@ This work aligns with Sustainable Development Goals such as Zero Hunger and Resp
 ### Data and Implementation
 
 - **Nutritional data** (macronutrients and energy values) will be sourced from the official CREA food composition database.
-- **Environmental impact scores** will be integrated from open datasets such as those published by Poore & Nemecek (2018) and Our World in Data.
+- **Environmental impact scores** and **Seasonality score** are not available.
 
 The system will be implemented in **Python**.
-
-### AI Techniques to Be Used
-
-The problem will be tackled using methods covered in the course:
-- **Constraint Satisfaction Problems** (CSP and Soft CSP) for encoding nutritional, environmental, and logistical constraints,
-- **Stable Matching Algorithms** (e.g. Gale-Shapley) to fairly match meal preferences to user groups,
-- **Local Search and Metaheuristics** (e.g. hill climbing, simulated annealing) for optimizing menu planning across multiple objectives.
-
-### Paper Structure
-
-- Introduction – Context and relevance
-- Problem formulation as a soft CSP
-- Modeling and aggregating user preferences
-- Optimization with local search techniques
-- Case example / simulated weekly menu
-- Conclusion and future directions
 
 ## Details
 
@@ -96,10 +80,10 @@ most preferred recipes.
 
 #### Ingredients choice
 
-We chose metaheuristic approaches (**Genetic Algorithms** and Simulated Annealing)
-over Soft CSPs because they offer greater flexibility in handling multiple soft
-constraints—such as nutrition, cost, stock availability, and environmental
-impact—using a unified objective function.
+We chose metaheuristic approaches (**Genetic Algorithms**) over Soft CSPs
+because they offer greater flexibility in handling multiple soft constraints — 
+such as nutrition, cost, stock availability, and environmental
+impact — using a unified objective function.
 
 The soft constraints we are considering are:
 - Environmental impact
@@ -117,4 +101,11 @@ The context of the application is defined by:
 - **Recipes repository**: registry containing all the recipes
 - **Warehouse**: registry containing the availability of each food
 - **Market**: registry containing the price on the market of each food
-- **History**: registry containing when each food has been used the last time
+
+## Run
+
+```
+python3 scripts/random_preferences.py
+python3 scripts/choose_recipes.py
+python3 scripts/choose_ingredients.py
+```
